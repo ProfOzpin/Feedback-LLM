@@ -1,0 +1,934 @@
+Misconception,Misconception ID,Topic,Example Number,Question,Incorrect Answer,Correct Answer,Question image,Learner Answer image,Correct Answer image,Source,Explanation
+when students neglect to check their solutions or make errors during the checking process,MaE52,Equations and inequalities,1,"Solve for n, check your answer
+7-1/2n=18","7-1/2n=18
+-1/2n=11
+n=22
+Checking:
+7-1/2·22=18
+7+11=18
+18=18","n=-22
+Checking:
+7-1/2(-22)=18
+7+11=18",,,,"Perrenet & Wolters, 1994
+p. 5",
+"When students multiply the numerator of the first fraction by the denominator of the second fraction, they write down only the unit digit of this product and mistakenly save the tens digit for later use, then they multiply the denominator of the first fraction by the numerator of the second one and add the saved tend digit, obtaining an integer number instead of a fraction.",MaE12,Number Operations,2,2/3*4/6=,2/3*4/6=132,4/9,,,,Ashlock (2006),
+when students incorrectly add or subtract fractions by summing both numerators and denominators separately,MaE08,Number Operations,4,Subtract 3/5 from 8,8-3/5=(8-3)/(8-5)=5/3,7 2/5,,,,"Brown, G., & Quinn, R. J. (2006)
+p. 3","The learner converted 8 into 8/8 and then subtracted the numerators and denominators, incurring in 2 MaEs in this case: 8 and 13"
+when students confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",4,"Explore growth of paper ballots as they are repeatedly cut in half. If Alejandro makes ten cuts, can you predict how many ballots Alejandro might have? What is your reasoning?",Yes. If you set up an equation like 2x then you put 10 in for x and 2 times 10 equals 20 and find the answer 20. All you have to do is set up the equation,2^n=2^10=1024,,,,"LA Kasmer, OK Kim (2012)
+p. 14","As is apparent from this example, the student relied solely on a mathematical calculation [multiplying 2 by 10] to arrive at the response to the prediction question
+"
+when students confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",3,"Determine whether a situation that doubles x amount of times would yield more rubas than adding 5x amount of times and beginning with 20 rubas.
+Predict whether this situation will be a better offer for the peasant or the king. How do you know?","Adding 5x will make more, because 5 is bigger than 2 (doubles)","Doubling x will yield more rubas than adding 5x amount, because doubling is exponential and adding 5x is a linear relationship",,,,"LA Kasmer, OK Kim  (2012)
+p. 12",
+"when students subtract mixed numbers incorrectly, avoiding regrouping and just subtracting the smaller from the larger number",MaE10,Number Operations,1,Solve x+1/3=7,"x+1/3=7
+x=7-1/3=6/3=2",x=6 2/3,,,,"Brown, G., & Quinn, R. J.  2006
+p. 6","The learner did not find an equivalent fraction for 7 and instead, subtracted 1 from 7 and left the denominator without changing"
+"when students simplify just one of the terms in a fraction, either the numerator or the denominator",MaE07,Number Operations,3,Simplify 4/6,4/6=1/6,4/6=2/3,,,,"Ashlock, 2006","The learner simplified the numerator, but not the denominator"
+when students struggle to grasp that variables can represent changing or varying quantities,MaE48,"Variables, expressions, and operations",2,What can you say about r if r=s+t and r+s+t=30,r < 30,r=15,,,,"Kuchemann (1978)
+p. 5","The learner fails to understand that s + t in the second equation can be replaced with r to solve it, because lacks understanding that variables represent varying quantities"
+"when students incorrectly perform operations from left to right, neglecting the proper order of operations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31","2n*3
+6","2n+3
+65",,,,"Bush, 2011
+p. 173",
+"when students mistakenly add two negative numbers, yielding a positive sum, particularly in equations with variables",MaE32,Properties of number and operations,3,The temperature on a chosen date last year was 5 and the temperature on the corresponding day this year is -3. Write an equation and calculate the change in temperature.,"T2-T1=-3-5=8
+The temperature increased 8 degrees.","T2-T1=-3-5=-8
+There was a decrease of 8 degrees in the temperature",,,,"Peled & Carraher (2008)
+p. 312",
+"when students mistakenly position the decimal point left of the sum, assuming units and tenths combine separately",MaE16,Number Operations,4,0.5+0.8=,".5
++.8
+------
+.13",0.5+0.8=1.3,,,,Ashlock (2006),
+"when students misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,1,(z -4)^2=,"(z -4)^2=
+(z-4)(z+4)=z^2+4z-4z-16=z^2-16",z^2-8z+16,,,,Pinchback (1991),"This example shows the lack of understanding that algebra students have regarding exponents. This learner for example, interpreted the expression (z-4)^2 as (z-4)(z+4) "
+"when students interchange minuend and subtrahend, reversing subtraction order, causing calculation errors, especially in equations or expressions",MaE33,Properties of number and operations,3,"Solve for n:
+16n-215=265","16n-215-265=0
+16n=265-215=50
+n=50/16
+n=3.125",n=30,,,,"L Linchevski, N Herscovics (1996)
+p. 46","The learner tried to use reverse operations, but got confused with the negative signs and inverted the operation"
+"when students incorrectly assume the commutative and associative properties apply to subtraction and division, akin to the ""Switch-Around Rule.""",MaE31,Properties of number and operations,2,"Find the missing number:
+23=2+5+__+4+6","23=7+__+10
+23=17+__
+It's the same if I do 23-17 or 23+17, it's the switch-around rule
+23+17=40","23=7+__+10
+23=17+__
+23-17=6
+6 is the missing number",,,,Warren (2003),"The learner did not realize that 17 had to be subtracted from 23 in order to find the correct answer. This misconception is related to the belief that commutative and associative properties are true for subtraction and division, or in other words, that the ""Switch-Around Rule"" is always true."
+"when students misunderstand how to identify and use equivalent forms of ratios, including fractions and decimals",MaE26,Ratios and proportional reasoning,2,Represent (1/3)*a as a ratio,1/3a,a/3,,,,"Brown, G., & Quinn, R. J. (2006) 
+p. 6","The learner did not recognize that one third of any number produces a ratio, instead seems to think that the fraction implies a division and got confused on how to represent it"
+when students confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",1,Determine whether a situation of 3^(x-1) repeated 6 times would produce a greater yield than 2^(x-1) repeated 64 times. Do you predict this situation will be linear or exponential? How do you know? What did you think about to help you make this prediction?,"The second situation will produce a greater yield, because it is repeated more thimes. I predict this situation would be linear, because x-1 is a linear relationship. To help me make this prediction, I thought about an example from previous classes, where x-1 was a linear situation.",The situation will be exponential in both cases because each term is raised to a power that includes a variable x.,,,,"LA Kasmer, OK Kim  (2012)
+p. 12","The learner gets confused between a linear and an exponential function, because the exponent includes a linear expression."
+"when students misunderstand how to identify and use equivalent forms of ratios, including fractions and decimals",MaE26,Ratios and proportional reasoning,4,You had a picture on your computer and you made it 3/4 (75%) of its original size. You changed your mind and now you want it back to its original size again. What fraction of its present size should you tell the computer to make it in order to restore its original size?,"To get it at 3/4 you had to do 75% of the original. So that means you took off 25% of its size. To get it back, you should enlarge it 25% by setting the number at 125%, or 1.25",4/3 (the inverse of 3/4),,,,"Lamon 2012
+(no link)",
+when students struggle to grasp that variables can represent changing or varying quantities,MaE48,"Variables, expressions, and operations",4,What can you say about c if c+d=10 and c is less than d?,c=4,"c can be equal to any number between 0 and 4, depending on the value of d",,,,"Kuchemann (1978)
+p.3",The learner fails to understand that the variable c can take different values to make the equation true
+"when students struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50,"x=0
+30+20=50",x=10,,,,"Ashlock, 2006",
+when students struggle to grasp that variables can represent changing or varying quantities,MaE48,"Variables, expressions, and operations",1,"A store is having a sale. They have advertised 10% off everything in the store. They also have just purchased a new shipment of computer games. These games cost the store $32.11 each. They want to price the game so that they will make at least a 40% profit, even at the sale price. What is the lowest regular selling price  for the game that will allow this profit? 
+Use x to represent the regular selling price of the game and state an equation to solve this problem. 
+If the store changed the % off in the store, would x continue representing the selling price? What would change in your equation?","[32.11 + .4(32.11)] = x - .1x
+32.11 + 12.844 = x(1 - .1)
+44.954 = x(.9)
+49.94888.. = x
+x = $49.90
+The regular selling price should be at least $49.90 
+If the offer changes, x cannot represent the selling price anymore, two different letters will be needed to solve the new problem.","x = $49.95
+If the offer changes, x will continue representing the selling price, the only thing that changes is the decimal number that multiplies x",,,,"Bair, S. L., & Rich, B. S.  2011
+p. 12","The learner fails to understand that variables can represent varying quantities, so can be used to solve the same problem with different values for the selling price, the discount or any other quantity"
+when students confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",2,"Consider a coin collection with an initial value of $2,500 that increased in value by 6% each year. Generate a table showing the value of the collection each year for 10 years and determine the growth factor of this situation. Do you predict the increase in coin value would be linear, exponential, or something else? Explain why.","The increase in coin value would be something else. The reason it's not linear is it doesn't always increase the same amount. The reason it's not exponential is the #'s don't double or triple. In this case every year goes by and the value increases, but 6% comes out of the higher value every year to add on.",Exponential because it's not going at a constant rate and its growth factor is 1 .06 from 2500 to 2650 and also 2650 to 2809 has a growth factor of 1.06. So if it keeps multiplying by 1.06 then its exponential growth,,,,"LA Kasmer, OK Kim  (2012)
+p. 7","This vignette demonstrates the prediction question afforded the student an opportunity to make an explicit connection to attributes of linear (""doesn't always increase the same amount"") and exponential (""the #s don't double or triple"") relationships. Although the response is not mathematically accurate, as this in fact is considered an exponential relationship, the prediction response was coded as logical because it revealed an initial understanding of compound growth. The student seemed to regard exponential growth only as whole number growth factors and perhaps those that only double and triple, but recognized the addition of 6% value each year from the previous year."
+"when students subtract mixed numbers incorrectly, avoiding regrouping and just subtracting the smaller from the larger number",MaE10,Number Operations,3,Solve 6-1 1/4=,6-1 1/4=5 1/4,4 3/4,,,,Ashlock (2006),
+"when Students think longer numerals mean larger numbers, misunderstanding place value",MaE05,Number sense,4,"Fill in the blank with >, < or =
+0.2 __ 0.03",0.2 < 0.03,0.2 > 0.03,,,,"Ashlock, 2006
+p. 140",
+"when students wrongly subtract mixed numbers by separately subtracting wholes, numerators, and denominators to form a new fraction",MaE11,Number Operations,3,5 3/8-2 2/3=,5 3/8-2 2/3=(5-3)+(3-2)/(8-3)=3 1/5,65/24,,,,Ashlock (2006),"Chuck is subtracting by first finding the difference between the two whole numbers and recording that difference as the new whole number. He then finds the difference between the two numerators and records that difference as the new numerator. Finally, he finds the difference between the two denominators and records that number as the new denominator."
+"when students incorrectly assume the commutative and associative properties apply to subtraction and division, akin to the ""Switch-Around Rule.""",MaE31,Properties of number and operations,4,"Sarah shares $15.40 among some of her friends. She gives the same amount to each person.
+(a) How many people might there be and how much would each receive? (Give at least 3 answers)
+(b) Explain in writing how to work out more answers.","3*5= 15, so 3 friends can share the money but I don't know what to do with the 40 cents, because there's no way to share evenly 40 cents with 3 people. Since 3 times 5 is the same as 5 times 3, 15.4 shared by 3 has to be the same as 15.4 shared by 5, then we can also share the 15.4 dollars with 5 people, but we ignore the 40 cents.","You can share $15.40 among 2, 4, and 7 people:
+$15.4÷2= $7.70
+$15.4÷4= $3.85
+$15.4÷7= $2.20
+This way, everyone gets the same amount. You can give more answers if you divide 15.40 by more numbers",,,,Warren (2003),"The learner believes that 3÷4=4÷3. Plus, the student did not realize that dividing 0.40 by 3 is not the same as dividing 4 by 3"
+"when students incorrectly scale both numerator and denominator by the same whole number, effectively multiplying the fraction by 1 instead of the intended whole number",MaE13,Number Operations,2,1/4*6=,1/4*6=(1*6)/(4*6)=6/24,6/4=3/2,,,,"Ashlock (2006)
+p. 173",
+"when students fail to regroup in subtraction, mistakenly subtracting the larger number from the smaller",MaE21,Number Operations,1,253-179=,"253
+- 179
+----------
+ 126",74,,,,"Ashlock, 2006
+p. 72",
+when students struggle to grasp the concept that a linear function represents a consistent rate of change,MaE38,"Patterns, relationships, and functions",1,"Water is being pumped into a swimming pool. The graph indicates that the pool held 6 gallons of water after 3 minutes, 10 gallons after 5 minutes, and 18 gallons after 9 minutes. Find the slope of the line.","[The learner counted 3 boxes along the base of the stair step and 2 boxes along the side of the stair step and recorded the slope as 2/3. She repeated this procedure, using the points (3,6) and (5,10). She found the run by counting 2 boxes along the base of her second stair step, and she apparently determined the rise by rounding the number of boxes along the side of the stair step to 1 box. She recorded a second slope of 1/2.]
+It has different amounts on the sides and the rise and the runs, the slope for this line changed.
+[The learner is then asked to draw a line with a slope that did not change. She plotted a point on the graph, went up 4 and over 2, plotted a new point, went up 4 and over 2, plotted a point, and then connected the points.]",The slope is 2 gallons/min,,MaE38-Ex1LA,,"Lobato, 2010
+p. 66","This process suggests that she did not connect linearity and proportionality. Instead, she apparently associated slope with the idea of stairs of identical size rather than with a ratio that is invariant despite changes in particular “rise” and “run” values."
+"when students struggle to accurately represent problems using graphical notation, misunderstanding the purpose of the representation",MaE36,"Patterns, relationships, and functions",4,"Marcus is at the music store buying guitar strings for his band. If there are 3 guitar players in the band, and each guitar has 6 strings, how many things should Marcus buy?",[The learner's answer is a graphic representation of only a guitar with 6 strings],"A diagram of 3 guitars with 6 strings each, or 3 sets of 6 strings each, like:
+||||||   ||||||   ||||||",,MaE36-Ex4LA,MaE36-Ex4CA,"Scheuermann and van Garderen (2013)
+p. 4","The learner's picture represents the guitar, but seems to misunderstand the purpose of representinng the problem, because the student drew only one guitar and did not relate it to the problem."
+"when students incorrectly invert the dividend instead of the divisor when dividing fractions, misunderstanding the 'invert and multiply' rule.",MaE15,Number Operations,3,3/4÷1/5=?,3/4÷1/5=4/3*1/5=4/15,15/4,,,,"Ashlock (2006)
+p. 175",
+when students incorrectly apply a single proportion formula to all percentage problems: (smaller value)/(larger value) = (x/100),MaE29,Ratios and proportional reasoning,1,Jim correctly solved 88% of 50 test items. How many items did he have correct?,"(50/88)=(x/100)
+57 items",44 items,,,,"Ashlock (2006)
+p. 187","Sara successfully solved percent problems when the class first solved them, but as different types of problems were encountered, she began to have difficulty. Sara is solving correctly the proportion she writes for the problem. However, she uses a procedure that often does not accurately represent the ratios described in the problem. She is using the following proportion for every problem encountered:
+(lesser number in the problem)/(greater number in the problem)=x/100"
+"when students mistakenly perceive variables as labels or units, or associate their value with their alphabetical position",MaE46,"Variables, expressions, and operations",2,David is 10 cm taller than Con. Con is h cm tall. What can you write for David's height?,"Dh
+D stands for David's and h for height. Dh is David's height",h+10,,,,"Stacey and MacGregor, 1997b
+p. 2","This abbreviation stands for the words ""David's height"""
+"when students incorrectly scale both numerator and denominator by the same whole number, effectively multiplying the fraction by 1 instead of the intended whole number",MaE13,Number Operations,1,2/3*3=,2/3*3=(2*3)/(3*3)=6/9,6/3=2,,,,"Ashlock (2006)
+p. 173",
+"when students incorrectly assume the commutative and associative properties apply to subtraction and division, akin to the ""Switch-Around Rule.""",MaE31,Properties of number and operations,3,"True or false?
+2÷3=3÷2","True, because of the switch-around rule",False. Commutative and associative properties are not true for division,,,,Warren (2003),
+"when students struggle to discern the three types of percent problems, relying solely on ""percent times a number equals percentage"" rule",MaE30,Ratios and proportional reasoning,2,What percent of 40 is 28?,"40*.28=11.20
+11.2",70%,,,,"Ashlock (2006)
+p. 192",
+when students find common denominators but wrongly keep the original numerators unchanged,MaE09,Number Operations,2,Add 2/5+1/2=?,"2/5 = 2/10
++         +
+1/2 = 1/10
+----     ----
+          3/10",9/10,,,,"Ashlock, 2006","The learner incorrectly made 1/2 equal to 1/10, failed to change 1/2 into an equivalent form in tenths"
+"when students struggle to accurately represent problems using graphical notation, misunderstanding the purpose of the representation",MaE36,"Patterns, relationships, and functions",1,Logan and Luis had the same amount of marbles after Logan gave 12 individual marbles to Haley. Logan had 5 equal bags. Luis had 3 marbles. How many marbles were in one of Logan's bags?,"[Graphic representation: The learner drew 4 lines of circles trying to represent the marbles only. On the first line, he drew 12, on the second line he drew 3, on the third line he drew 5, and on the fourth line he drew 3 again. There's no representation for the bags, nor labels to specify the marbles that belong to Logan or Luis.]","Inferring that Logan's bags have equal amounts of marbles, each bag should have 3 (15 marbles in total, because 12+3=15 -12 he gave to Haley, plus 3 he was left with). An accurate representation would contain a drawing to represent each of Logan's bag, the 12 individual marbles he gave to Haley and the 3 marbles that both Logan and Luis had after the sharing.",,MaE36-Ex1LA,,"Scheuermann and van Garderen (2008)
+p. 4 ","The learner did not understand the purpose of the representation, drawinng only some marbles but with no relationship with the problem"
+"when students lack unitization skills, unable to treat ratios as composite units to solve problems systematically.",MaE27,Ratios and proportional reasoning,2,"To bake 6 cakes, you need 15 eggs. Using the same recipe, how many eggs do you need to bake 4 cakes?","In 2, 4, 6 there are three and all are times 2. Then 15 divides 3 because 1,2,3, got three. 2 cakes - 5 eggs, 4 cakes - 10 eggs, and 6 cakes you need 15 eggs
+[The teacher asked: How do you know that for 2 cakes you need 5 eggs? The student replied: Because I divided 6 cakes and 15 eggs by 3. Because in 2, 4, 6 there are one, two, three, so I divided by 3]","(15 eggs)/(6 cakes)=2.5 eggs/cake
+(2.5 eggs/cake)*(4 cakes)=10 eggs
+10 eggs",,,,"Singh, 2000
+p. 10",
+"when students incorrectly assume two variables in an equation must represent distinct numerical values, rather than potentially representing the same expression",MaE47,"Variables, expressions, and operations",2,"Ricardo has 8 pet mice. He keeps them in two cages that are connected so that the mice can go back and forth between the cages. One of the cages is blue, and the other is green. Show all the ways that 8 mice can be in two cages.
+The situation can be represented by the equation  b + g = 8, where b represents the blue cage and g the green cage.
+Can b=g be true?","b can't be the same as g, because the letters represent different things","b=g is true when there are 4 mice in each box, so b = g is true for number 4",,,,"Stephens (2005)
+p. 2-4",
+"when students misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",MaE03,Number sense,2,Evaluate: (2^9)(3^4)(5^6)=,"2^9 = 2+2+2+2+2+2+2+2+2=18
+3^4=3+3+3+3=12
+5^6=5+5+5+5+5+5=30
+18*12*30=6480",648000000,,,,"Slavit, D. 2006
+p. 3, 5
+Modifiqué la pregunta y respuesta de estudiante",The learners confuse the exponent with a factor and add the base instead of multiplying it by itself. 
+"when students extend quotients with remainders as decimals, if division isn't exact within the dividend's digits",MaE22,Number Operations,1,2.57÷3=?,[Image],0.8567,,MaE22-Ex1LA,,"Ashlock (2006)
+p. 183","Ted has incorrect quotients because of the way he handles reminders. Id division does not ""come out even"" when taken as far as digits given in the dividend, Ted writes the reminder as an extension of the quotient. He may believe this is the same as writing R2 after the quotient for a division problem with whole numbers."
+"when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",MaE14,Number Operations,2,6/8÷2/8=?,6/8÷2/8=3/1,3,,,,"Ashlock (2006)
+p. 174","The learner got a correct answer, however he did not apply the correct algorithm"
+"when students incorrectly assume the commutative and associative properties apply to subtraction and division, akin to the ""Switch-Around Rule.""",MaE31,Properties of number and operations,1,"Write the “Switch-Around Rule” in your own words, and give examples to show if it’s always, sometimes, or rarely true.",The switch-around rule says 2-1=1 and 1-2=1,"The switch-around rule is not always true, it applies only for addition and multiplication. For example: 7+3=10 and 3+7=10, but 7-3=4 and 3-7=-4, it's not the same",,,,"Schifter et al, (2008)","Many of the children interpret the switch-around rule to apply to other operations, even though the rule was written “when two numbers are added together.” Some children consider addition, subtraction, multiplication, and division; others addition and subtraction; and some specify that the switch-around rule is about addition."
+when students neglect to check their solutions or make errors during the checking process,MaE52,Equations and inequalities,3,"Solve m-3=4m
+And check your answer","Solving: m=3m
+m=3
+Checking
+[nothing]","m=-1
+Check:
+-3-3=4(-1)
+-4=-4",,,,"Perrenet, J. C., & Wolters, M. A. 
+(1994)
+p.5",
+when students struggle to grasp the concept that a linear function represents a consistent rate of change,MaE38,"Patterns, relationships, and functions",4,Crystal placed a bucket under a faucet and collected 6 ounces of water in 20 minutes. Joanne placed a bucket under a second faucet and collected 3 ounces of water in 10 minutes. Were the faucets dripping equally fast or was one dropping faster than the other?,"Crystal's faucet is dripping more slowly than Joanne's because it took its time. 
+No, Crystal's faucet is dripping faster because both amounts, time and water, for Crystal's faucet are greater than the corresponding amounts for Joanne's faucet.","The faucets were dripping equally fast, because 6/20=3/10 and both proportions are linear relationships",,,,"Lobato, J. (2010)
+
+p. 19",This response indicates that she did not form a ratio between the amount of water and the amount of time
+"when students wrongly subtract mixed numbers by separately subtracting wholes, numerators, and denominators to form a new fraction",MaE11,Number Operations,4,7 2/5-4 7/10=,7 2/5-4 7/10=(7-4)+(7-2)/(10-5)=3 5/5,27/10,,,,Ashlock (2006),
+when students are unsure of the correct sign when adding positive and negative numbers,MaE18,Number Operations,1,-8+6=,-8+6=2,-2,,,,"Ashlock, 2006",
+when students incorrectly add or subtract fractions by summing both numerators and denominators separately,MaE08,Number Operations,2,1/4+2/3=,1/4+2/3=3/7,11/12,,,,Ashlock (2006),The learner added the numerator and the denominators
+"when students mistakenly perceive variables as labels or units, or associate their value with their alphabetical position",MaE46,"Variables, expressions, and operations",3,"Given the equation: a=28+b
+Which of the following would be true?
+(i) a is greater than b
+(ii) b is greater than a
+(iii) a=28
+(iv) you cannot tell which number is greater","b is greater because it has 28 added to it, whereas a has nothing added to it",(iv) you cannot tell which number is greater,,,,"Stacey and MacGregor, 1997b
+p. 2",
+"when students lack unitization skills, unable to treat ratios as composite units to solve problems systematically.",MaE27,Ratios and proportional reasoning,3,"Adrian has conquered only 6 giants in his new video game, Giant Trouble, but this is only two-fifths of the giants that he must conquer. How many giants are there in the new video game?","6 2/5 = 32/5, then there are 32 giants
+32 giants","(6 giants)/(2/5 total)=(? giants)/(1 total)
+6÷(2/5)=30/2=15
+15 giants in total",,,,"Brown, G., & Quinn, R. J. (2006)
+p. 5","The learners did not compare the ratio, instead only arranged the numbers in a familiar form and then applied an algorithm that they believe fits the form"
+"when students wrongly subtract mixed numbers by separately subtracting wholes, numerators, and denominators to form a new fraction",MaE11,Number Operations,1,6 2/3-3 1/6=,6 2/3-3 1/6=(6-3)+(2-1)/(6-3)=3 1/3,7/2,,,,Ashlock (2006),
+"when Students think longer numerals mean larger numbers, misunderstanding place value",MaE05,Number sense,3,"Fill in the blank with >, < or =
+0.001 __ 0.02",0.001 > 0.02,0.001 < 0.02,,,,"Ashlock, 2006
+p. 140",
+"when students make reversal order errors, swapping variables in equations, such as writing 2X=Y instead of X=2Y",MaE54,Equations and inequalities,3,"Write an equation to represent the following statement: ‘At this company, there are six times as many workers as managers’. Assuming that the variable W represents the number of workers and M the number of managers.",6W=M,W=6M,,,,"Soneira, C., Bansilal, S., Govender, R. (2021)
+p. 3",
+when students mistakenly switch variables when transposing expressions involving subtraction,MaE45,"Variables, expressions, and operations",3,"At a meeting there are five more women than men. There are 25 women.
+How many men are there?",M=W+5=25+5=30,M=W-5=25-5=20,,,,"Stacey, K & MacGregor M (2014)
+
+p. 5",The learner transposed the variables
+"when students misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,2,(z -4)^2=,(z-4)^2=(z+2)(z-2),z^2-8z+16,,,,Pinchback (1991),"This example shows the lack of understanding that algebra students have regarding exponents. This learner for example, interpreted the expression (z-4)^2 as (z+2)(z-2)"
+when students find common denominators but wrongly keep the original numerators unchanged,MaE09,Number Operations,3,Add 3/5+1/3=?,"3/5 = 3/15
++        +
+1/3 = 1/15
+ ----     ----
+           4/15",14/15,,,,"Ashlock, 2006",
+when students neglect to check their solutions or make errors during the checking process,MaE52,Equations and inequalities,4,Solve 4p+40=60 and check your answer,"Solving: 4p=20
+p=5
+Checking: 5+5+5+5=20
+60-40=20","p=5
+Check:
+4(5)+40=60
+20+40=60
+60=60",,,,"Perrenet, J. C., & Wolters, M. A. 
+(1994)
+p.5",
+"when students misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",MaE03,Number sense,4,Evaluate: 9^3-5^4 =,9^3-5^4=9+9+9-(5+5+5+5)=27-20=7,104,,,,"Bush, Sarah B., 2011
+p. 238",The lerner interpreted the exponents as factors and added repeatedly instead of multiplying
+"when students subtract mixed numbers incorrectly, avoiding regrouping and just subtracting the smaller from the larger number",MaE10,Number Operations,4,Subtract 1/3 from 1,"1 
+   -     1/3
+-------------
+        1 1/3",2/3,,,,"Ashlock, 2006",
+when students fail to see ratios as relationships between two quantities,MaE28,Ratios and proportional reasoning,1,"Bart is publicity painter. In the last few days, he had to paint Christmas decorations on several store windows. Yesterday, he made a drawing of a 56 cm high Father Christmas on the door of a bakery. He needed 6 ml paint.  Now he is asked to make an enlarged version of the same drawing on a supermarket window. This copy should be 168 cm high. How much paint will Bart approximately need to do this?","You need more data, for instance the width",54 ml,,,,"De Bock, D., Van Dooren, W., Verschaffel, L., & Janssens, D. (2002)
+p. 8",The learner did not recognize the ratio of the height of the figure to the amount of paint needed
+"when students struggle to connect different representations of the same function (graph, equation, table).",MaE41,"Patterns, relationships, and functions",1,What shape would the graph of the function y=x^2+1 have? Elaborate a data table and sketch the graph.,[Image],"Table
+x | -1.2 | -1 | -0.8 | -0.6 | -0.4 | -0.2 | 0 | 0.2 | 0.4 | 0.6 | 0.8 | 1 | 1.2
+y  2.44 | 2 | 1.64 | 1.36 | 1.16 | 1.04 | 1 | 1.04 | 1.16 | 1.36 | 1.64 | 2 | 2.44
+[Graph in the Image]",,MaE41-Ex1LA,MaE41-Ex1CA,"Kalchman, M., & Koedinger, K. R.  2005
+p. 358","The learner seemed to read incorrectly the numbers from the x- and y- axes, rounding the numbers, and did not see the connection between the graph and the data table"
+"when students make reversal order errors, swapping variables in equations, such as writing 2X=Y instead of X=2Y",MaE54,Equations and inequalities,4,"Write an expression that could be used to represent the number of rows, if there were n girls all together and each row had 6 girls.",6n,n/6,,,,"Capraro, M. M., & Joffrion, H. (2006)
+p. 10",
+when students misinterpret slope signs in equations versus their upward or downward trends in graphs.,MaE40,"Patterns, relationships, and functions",4,How did you make a straight line come down or change direction?,"Using minus in the number that is alone in the equation, the one that is not multiplied by x","Changing the sign of the slope, the coefficient of the independent variable.",,,,"Kalchman, M., & Koedinger, K. R.  2005
+p. 37","The learner left the positive sign to the slope, not relating that the line comes down by the effect of a negative slope"
+"when Students think longer numerals mean larger numbers, misunderstanding place value",MaE05,Number sense,2,"Fill in the blank with >, < or =
+0.9 __ 0.01",0.9 < 0.01,0.9 > 0.01,,,,"Ashlock, 2006
+p. 141",The learner does not compare the total values of the numbers shown.
+when students are unsure of the correct sign when adding positive and negative numbers,MaE18,Number Operations,2,5+-9=,5+-9=4,-4,,,,"Ashlock, 2006",
+"when students mistakenly add two negative numbers, yielding a positive sum, particularly in equations with variables",MaE32,Properties of number and operations,2,"Simplify:
+3(6x-4)+2(3x-3)",18x-12+6x-6=24x+18,24x-18,,,,"Bush, S. (2011)
+p.192",
+"when students struggle to connect different representations of the same function (graph, equation, table).",MaE41,"Patterns, relationships, and functions",2,"For the function f(x)=2x^2+3x-1, (i) make a table of data points and (ii) sketch a graph of the data","x   |    y
+0   |    1
+1  |   8
+1.5    | 11.5  
+5   |  36
+-1  |  -6 
+[No graph provided]","An example of possible correct answer is:
+x   |   y
+-4  | 19
+-2  | 1  
+  0  |  -1 
+2  | 13
+4  | 43
+[The graph is a curved line that represents the parabolla given by the equation f(x)=2x^2+3x-1]",,,MaE41-Ex2CA,"Kalchman, M., & Koedinger, K. R.  2005
+p. 3-8",
+"Students misunderstand proportional relationships, not realizing parts must be equal in size.",MaE02,Number sense,4,Reduce 24/36 to lowest terms,24/36=12/18=5/9,2/3,,,,"Brown, G., & Quinn, R. J. 2006
+p. 4",
+when students struggle with forming and understanding algebraic expressions and equations.,MaE50,Equations and inequalities,4,"The first row of a concert hall has 10 seats. Each row thereafter has 2 more seats than the row in the front of it.
+Let R represent the number of the row and let S represent the number of seats in that row. Can you give an equation for finding the number of seats?","You could do guess and check. For example if the last row has 50 seats, you do 50-8=42 and you would have to figure out what times 2 equals 42. That would be 21. It's easy, so you don't need an equation for finding the number of seats.",S=10+2(R-1),,,,"Brown, G., & Quinn, R. J.  2006, 
+p. 7","The learner did not write the equation and rather, solved the problem by iteration and using inverse operations"
+"when students struggle with plotting points, reversing the x- and y-coordinates",MaE43,Algebraic representations,4,Write down an example of a function. Represent that same function in four different ways,"The learner represented the function with the equation: x=1(y)+5
+With the statement: ""Every hour you earn $5 more""
+And with a data-table and a graph
+Data table:
+x | 1 |  2  |  3  |  4  | 5  
+y | 5 | 10 | 15 | 20 | 25
+On the graph, the learner plotted the y-data on the horizontal axis and the x-data on the vertical one","For the example provided by the student, the equation should be: y=5x
+Data table:
+x | 1 |  2  |  3  |  4  | 5  
+y | 5 | 10 | 15 | 20 | 25
+Graph: a straight line or a scatter plot with the x-data on the horizontal axis and the y-data on the vertical axis",,MaE43-Ex4LA,MaE43-Ex4CA,,"The learner understands the concept of a function and the different ways it can be represented, however, reversed the variables both in the equation and on the graph."
+"when students wrongly position the decimal in multiplication by counting from the left, not the right",MaE20,Number Operations,2,21.8*.4=?,"21.8
+x .4
+-------
+87.2",8.72,,,,"Ashlock (2006)
+p. 176",
+"when students mistakenly add two negative numbers, yielding a positive sum, particularly in equations with variables",MaE32,Properties of number and operations,4,-8-3=x,x=11,x=-11,,,,"Bishop et. al. (2016)
+p. 87",
+when students are unsure of the correct sign when adding positive and negative numbers,MaE18,Number Operations,4,4+-3=,4+-3=7,1,,,,"Ashlock, 2006",
+"when students incorrectly scale both numerator and denominator by the same whole number, effectively multiplying the fraction by 1 instead of the intended whole number",MaE13,Number Operations,4,3/8*4=,3/8*4=(3*4)/(8*4)=12/32,12/8=3/2,,,,"Ashlock (2006)
+p. 173",
+"when students misunderstand the equal sign as indicating ""the answer is"" rather than representing a relationship between quantities",MaE51,Equations and inequalities,3,"For the following expressions, answer:
+What do the equal signs tell us?
+Which is more, one third or four twelfths?
+1/3 = 4/12 
++
+1/4 = 3/12 
+1/3 + 1/4 = 7/12","The equal signs tell us ... that you just do the answer.
+Is one third more than four twelfths? .... no ...",The equal signs tell us that both expressions at each side are equivalent to each other. One third is equal to four twelfths.,,,,Ashlock (2006),
+when students find common denominators but wrongly keep the original numerators unchanged,MaE09,Number Operations,4,Add 3/4+1/2=?,"3/4=3/4
+1/2=1/4
+3/4+1/4=4/4",5/4,,,,"Ashlock, 2006","The learner is able to determine the least common denominator, and she uses it when changing two factions so they will have the same denominator. However, she merely copies the original numerator. Apparently, she is able to add like fractions correctly."
+"When students multiply the numerator of the first fraction by the denominator of the second fraction, they write down only the unit digit of this product and mistakenly save the tens digit for later use, then they multiply the denominator of the first fraction by the numerator of the second one and add the saved tend digit, obtaining an integer number instead of a fraction.",MaE12,Number Operations,4,2/3*4/6=,2/3*4/6=132,4/9,,,,Ashlock (2006),
+"when students incorrectly perform operations from left to right, neglecting the proper order of operations",MaE34,Properties of number and operations,2,Solve: 17-3*5=,17-3*5=14*5=70,2,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+when students struggle to grasp the concept of independent and dependent variables,MaE44,Algebraic representations,3,"Mary's basic wage is $20 per week. She is also paid another $2 for each hour of over-time she works.
+Could you use a formula to find out how much over time Mary would have to work to earn a total wage of $50","I don't think so. It is guess and check....  You could do it in your head. It would be $30 the overtime, because 20 plus 30 equals 50. So  she would have to work 15 overtime hours, because 30 divided by 2 is 15.","Yes, it is possible to use a formula to find out how much over time Mary would have to work, the equation is: 50 = 20 + 2H",,,,Swafford & Langrall (2000),"Instead of using their equations, most of the students used mental mathematics strategies or extended tables to solve problems that could have been solved by using an equation, because they did not identify the variables involved in the problem
+"
+when students struggle to grasp the concept of independent and dependent variables,MaE44,Algebraic representations,4,Let N represent the number of squares along one edge of a grid and let B represent the number of squares in the border. Write an equation for finding the number of squares in the border. Can you use your equation to find the size of a grid with a border that contains 76 squares?,"n*4 - 4 = b
+Well, I thought just to divide 76 by 4 would be too complicated, so I subtracted the 4 from that... No, wait, I added the 4 because that would be the reverse of the formula. and then I got 80. And then I divided that by 4 and got 20","B=4(N-1)
+B=4(76-1)=4(75)=300",,,,"Swafford & Langrall (2000)
+p. 6, 17",Some students used the same reversing process but did not associate it with their equation because they did not identify the variables involved in the problem
+when students find common denominators but wrongly keep the original numerators unchanged,MaE09,Number Operations,1,Add 1/2+1/4=?,"1/2 = 1/4
++      +
+1/4 = 1/4
+ ----     ----
+          2/4",3/4,,,,"Ashlock, 2006",The learner did not find a correct equivalent fraction for 1/2 expressed as fourths
+when students incorrectly add or subtract fractions by summing both numerators and denominators separately,MaE08,Number Operations,3,Find the sum of 5/12 and 3/8,5/12+3/8=(5+3)/(12+8)=8/20,19/24,,,,"Brown, G., & Quinn, R. J. (2006)
+p. 3",The learner added the numerator and the denominators
+"when students confuse linear relationships with direct proportions, believing that because a linear function increases or decreases at a constant rate, it must be a direct proportion.",MaE42,"Patterns, relationships, and functions",3,"Two carnivals are coming to town. You and your friend decide to go to different carnivals. The carnival that you attend charges $10 to get in and an additional $2 for each ride. The carnival your friend attends charges $6 to get in, but each additional ride costs $3. If the two of you spent the same amount of money, how many rides could each of you have ridden?","If we spent the same amount of money, then I can calculate the money spent by each one, until it is equal and so I get the rides.
+Rides | Money I spent | Money spent by my friend
+1       |             2          |                      3                 
+  2       |             4          |                      6                   
+  3       |             6          |                      9                   
+I would have ridden 3 rides, and my friend would have ridden 2 rides","For my carnival, the total cost is: 10+2x
+For my friend's carnival, the total cost is: 6+3y
+As we spent the same money: 10+2x=6+3y
+There are two possible solutions: If I took 1 ride, my friend took 2 rides. If I took 4 rides, my friend took 4 rides.",,,,"Kilpatrick, J., Swafford, J. O., & Findell, B. (2001)
+p. 291",
+"when students struggle to connect different representations of the same function (graph, equation, table).",MaE41,"Patterns, relationships, and functions",3,"For the function f(x)=2x^2+3x-1, (a) make a sketch of the graph of the function's inverse (b) make a table of data points that represents the inverse function, and (c) find the explicit equation for the inverse function","(a) 
+y  |  x
+0  |   
+(b)
+??
+(c)
+2x^2+3x-1=0
+ x=[-3+-[9-4(2)(-1)]^(1/2)]÷[(2)(2)]=[-3+-(17^(1/2))]÷4","(a) The sketch of the graph of the function's inverse is a curve representing a square root.
+(b) Same data table for the original function, with the variables inverted.
+  y  |  x
+ 19  |  -4
+   1  |  -2
+  -1  | 0  
+ 13 | 2 
+43 | 4
+These points can be used to sketch the graph
+The inverse function for a quadratic is a square root function:
+f(x)=y=2x^2+3x+1
+x=[(1/2)y+(1/16)]^(1/2)-(3/4)
+f^-1(x)=[(1/2)y+(1/16)]^(1/2)-(3/4)",,MaE41-Ex3LA,MaE41-Ex3CA,"Bair, S. L., & Rich, B. S.  2011
+p. 14","The learner confused the data table with the graph, and did not have any idea on how to make the sketch of the graph of the function's inverse. Instead of finding the equation of the inverse function of f(x), the learner used the general equation trying to solve the quadratic function, which shows a lack of understanding of the formula representation of a function and its inverse"
+when students confuse fixed scaling (absolute) with ratio comparisons (relative) in proportional relationships.,MaE23,Ratios and proportional reasoning,1,"At ARCO, gas sells for $1.13 per gallon. This is 5 cents less per gallon than gas at Chevron. How much does 5 gallons of gas cost at Chevron?","($1.13/gallon)*(5 gallons)=$5.65
+$5.65-$0.05=$5.60","$1.13+$0.05=$1.18
+5 gallons*$1.18/gallon=$5.90
+5 gallons cost $5.9 at Chevron",,,,"Kilpatrick, J., Swafford, J. O., & Findell, B. (2001)
+p. 125","The learner thought about the proportionality relative to the cost of the gas at ARCO, focusing on specific numbers and keywords such as $1.13, 5 cents, less, and 5 gallons, rather than the relationships among the quantities"
+"when students struggle to discern the three types of percent problems, relying solely on ""percent times a number equals percentage"" rule",MaE30,Ratios and proportional reasoning,1,Fifteen percent of what number is 240?,"240*0.15=36.00
+36",1600,,,,"Ashlock (2006)
+p. 188",
+"when students extend quotients with remainders as decimals, if division isn't exact within the dividend's digits",MaE22,Number Operations,3,38.6÷4=?,[Image],9.65,,MaE22-Ex3LA,,"Ashlock (2006)
+p. 177","Some students, having studied division with decimals, try to add digits to the quotient when dividing whole numbers; after taking as far as digits given in the dividend, they write the reminder as an extension of the quotient after a decimal point."
+when students confuse fixed scaling (absolute) with ratio comparisons (relative) in proportional relationships.,MaE23,Ratios and proportional reasoning,4,Consider two marigolds that were 8 inches and 12 inches tall two weeks ago and 11 inches and 15 tall inches now. Write a ratio to represent the growth of each one and tell: Which plant grew more compared to its initial height?,"Each plant grew the same, 3 inches","The shorter plant grew 3/8 of its original height, while the larger plant grew less, just 3/12 of its original height",,,,"Kilpatrick, J., Swafford, J. O., & Findell, B. 2001
+p. 264","The learner compared how each plant grew relatively to the plant itself (relative proportion), but the instruction was to write a ratio to represent the growth of each plant and compare them"
+"When students multiply the numerator of the first fraction by the denominator of the second fraction, they write down only the unit digit of this product and mistakenly save the tens digit for later use, then they multiply the denominator of the first fraction by the numerator of the second one and add the saved tend digit, obtaining an integer number instead of a fraction.",MaE12,Number Operations,3,1/2*3/8=,1/2*3/8=68,3/16,,,,Ashlock (2006),
+"when students incorrectly assume two variables in an equation must represent distinct numerical values, rather than potentially representing the same expression",MaE47,"Variables, expressions, and operations",4,"Will different solutions be obtained from the following equations?
+7w+22=109
+and
+7n+22=109",Can't tell until both equations are solved.,"Of course, the solution is the same",,,,"Herscovics, N., & Kieran, C.  (1980)
+p. 2",The learner's answer implies that w and n can't represent the same number
+"when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",MaE14,Number Operations,3,6/10÷2/4=?,6/10÷2/4=3/2,6/5,,,,"Ashlock (2006)
+p. 174","When Linda divides with fractions, her answers are sometimes correct, but frequently they are not. She does not appear to be using good number sense and estimating skills. If she were, she might think, for example, ""How many halves (2/4) are in about one half (6/10)? There should be about one, not one and one half (3/2)."""
+"when students misunderstand how to identify and use equivalent forms of ratios, including fractions and decimals",MaE26,Ratios and proportional reasoning,3,"Greg conducts a survey of 100 classmates to determine their favorite fruits. The results of the survey are shown in a circle graph that contains the following data: 
+Orange - 17%
+Apple - 36%
+Grape - 15%
+Banana - 23%
+Kiwi - 9%
+Which two fruits represent 2/5 of the students' favorites?",I guess grapes and Kiwi,Orange and Banana (17%+23%=40%=2/5),,,,"Bush 2011
+p. 188",Students had to understand that 2/5 converts to 40% and then add to find the two fruits whose percentage totaled 40%. One interesting finding was that some students found the two fruits whose sum was approximately 25% (grapes and kiwi) or 50% (apples and grapes) of the total. Perhaps this meant that they believed that 25% or 50% was  equivalent to 2/5. This was categorized as not understanding the value of a fraction and not understanding the size of a ratio
+when students struggle to grasp the concept of independent and dependent variables,MaE44,Algebraic representations,2,"In some states, a deposit is charged on aluminum pop cans and is refunded when the cans are returned. In New York, the deposit is 5 cents a can.
+What would be the refund for returning 6 (10 or 12) cans?
+Describe how the store owner would figure the amount of refund for any number of returned cans.","For 6 cans, the refund would be 30 cents, 50 cents for 10 and 60 cents for 12.
+The store owner would have to add as plenty of times the 5 cents per can, according to the total amount of cans. For example, for 6 cans I added: 5 + 5 + 5 + 5 + 5 + 5 = 30 cents
+It depends on the refund he wants to obtain, the amount of cans he has to return.","refund = 5x, (being x the amount of cans)
+6 cans: 30 cents, 10 cans: 50 cents, 12 cans: 60 cents
+The owner has to multiply the amount of cans times the 5 cents for each one, as in the equation provided, for the refund obtained depends on the amount of returned cans",,,,Swafford & Langrall (2000),"The learner is thinking additively, because of a confusion among the variables: the students lacks understanding the concepts of the independent and dependent variables in this problem, not relating the dependency of the refunded money to the amount of returned cans"
+"when students incorrectly scale both numerator and denominator by the same whole number, effectively multiplying the fraction by 1 instead of the intended whole number",MaE13,Number Operations,3,4/5*2=,4/5*2=(4*2)/(5*2)=8/10,8/5,,,,"Ashlock (2006)
+p. 173",
+when students struggle to grasp the concept that a linear function represents a consistent rate of change,MaE38,"Patterns, relationships, and functions",2,The clown walks 10 centimeters in 4 seconds. How far will the frog walk in 8 seconds if the frog travels at the same speed as the clown?,"Clown: 10/4
+Frog: 20/8
+The frog is actually going faster than the clown because is going farther. Both numbers on the frog’s “side” of the proportion are bigger than the corresponding numbers on the clown’s side","For this linear function, we use the slope to calculate the distance the frog walks: 20 cm",,,,"Lobato, 2010
+p. 66","This is a case of univariate reasoning and an example of whole number reasoning, as students don't conceive that something in the situation remains the same while the distance and time values are changing, not connecting thence linearity with proportionality"
+"when students misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",MaE03,Number sense,3,5^-2=?,5^-2=5*10^-2,0.05,,,,"Farah (1993)
+p.11","The learner has the wrong idea that ""we can write any number in the form of a power of 10, by writing the base times ten at the negative number. This rule applies always to negative powers. Another example is: 15^-6=15*10^-6"""
+when students incorrectly apply a single proportion formula to all percentage problems: (smaller value)/(larger value) = (x/100),MaE29,Ratios and proportional reasoning,2,Brad earned $400 during the summer and saved $240 from his earnings. What percent of his earnings did he spend?,"(240/400)=(x/100)
+60%",40%,,,,"Ashlock (2006)
+p. 187","Sara is solving correctly the proportion she writes for the problem. However, she uses a procedure that often does not accurately represent the ratios described in the problem. She is using the following proportion for every problem encountered:
+(lesser number in the problem)/(greater number in the problem)=x/100"
+"when students mistakenly position the decimal point left of the sum, assuming units and tenths combine separately",MaE16,Number Operations,1,0.8+0.4=,".8
++ .4
+-------
+     .12",0.8+0.4=1.2,,,,Ashlock (2006),
+"when students struggle to accurately represent problems using graphical notation, misunderstanding the purpose of the representation",MaE36,"Patterns, relationships, and functions",2,The cafeteria staff prepares three kinds of sandwiches for the bus trip. They make 100 of each kind. How many sandwiches do they make all together?,"[The learner represented the problem with a bar graph, labeled on the vertical axis with numbers 1, 2, 3, 4, 5, 6. The first graph size is 4, the second bar seems to be size 6, the third bar is size 4, the fourth bar is size 3 and there are 4 more bars which sizes are not clear and their shapes are irregular. The learner wrote scribbles instead of a label on the x-axis]","[A graphic representation of three spots containing 100 sandwiches each, like: {100 tuna sandwiches} {100 jam sandwiches} {100 peanut butter sandwiches}]",,MaE36-Ex2LA,,"Scheuermann and van Garderen (2008)
+p. 3",The Bar graph provided by the learner does not contain any information found in the problem and is a poor choice of representation
+"when students struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,3,Solve: 5x+6x=110,"x=0
+50+60=110",x=10,,,,"Ashlock, 2006",
+when students mistakenly switch variables when transposing expressions involving subtraction,MaE45,"Variables, expressions, and operations",1,Write an algebraic expression to represent: Three less than a number.,3-x,x-3,,,,"Capraro, M. M., & Joffrion, H. (2006)
+p. 7",
+when students neglect to check their solutions or make errors during the checking process,MaE52,Equations and inequalities,2,"Solve for t:
+t-24=23t
+Check your answer","t-24=23t
+-24=24t
+-1=t
+t=-1
+Check:
+-1-24=23*-1
+-23=23*-1
+OK","t=-12/11
+Check:
+-12/11-24=23(-12/11)
+-25 1/11=-25 1/11",,,,"Perrenet & Wolters, 1994
+p. 5",
+"when students incorrectly invert the dividend instead of the divisor when dividing fractions, misunderstanding the 'invert and multiply' rule.",MaE15,Number Operations,1,2/3÷3/8=?,2/3÷3/8=3/2*3/8=9/16,16/9,,,,"Ashlock (2006)
+p. 175",
+"when students extend quotients with remainders as decimals, if division isn't exact within the dividend's digits",MaE22,Number Operations,4,8.24÷5=?,[Image],1.648,,MaE22-Ex4LA,,"Ashlock (2006)
+p. 177",
+"when students wrongly subtract mixed numbers by separately subtracting wholes, numerators, and denominators to form a new fraction",MaE11,Number Operations,2,4 5/8-1 3/4=,4 5/8-1 3/4=(4-1)+(5-3)/(8-4)=3 2/4,23/8,,,,Ashlock (2006),
+"when students misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,3,"Write an algebraic expression to represent: 
+""Four times a number""",x^4,4x,,,,"Stacey and MacGregor, 1997b
+p. 3",The learner confused an exponent with a factor
+"when students struggle to discern the three types of percent problems, relying solely on ""percent times a number equals percentage"" rule",MaE30,Ratios and proportional reasoning,3,Seventy is 14% of what number?,"70*.14=9.8
+9.8",500,,,,"Ashlock (2006)
+p. 192","Steve's solutions are correct when he is finding the percent of a specified number. However, his solutions are incorrect when the percent is known and he needs to find a number or when he needs to find what percent one number is of a specified number. "
+when students struggle to apply correct operations on ratios expressed as fractions,MaE25,Ratios and proportional reasoning,4,Reduce: (3+4)/2,4÷2+3=5,7/2,,,,"Brown, G., & Quinn, R. J. (2006) 
+p. 7","The learner did not see the operation as a complex ratio or an addition of fractions with a common denominator, but instead saw it as a set of operations that can be solved in any order"
+when students confuse fixed scaling (absolute) with ratio comparisons (relative) in proportional relationships.,MaE23,Ratios and proportional reasoning,3,"Which of the following drinks, C or D, will have a stronger apple taste?
+a) Drink C: 3 cups apple, 5 cups water
+b) Drink D: 5 cups apple, 7 cups water","b), because it has 5 apple, not 3","b), because 5/7>3/5. The concentration of apple is bigger in drink D",,,,"Lamon 2012
+(no link)","The learners compared the drinks with a relative proportion, not absolute, which was the correct way to do it in this case"
+when students struggle with forming and understanding algebraic expressions and equations.,MaE50,Equations and inequalities,1,There were three kinds of candy bars being sold at the concession stand during the Friday dance. There were 22 more Snickers bars sold than Kit Kat bars and there were 32 more Reese’s Peanut Butter Cups sold than Kit Kat bars. There were 306 candy bars sold in all. How many  of each kind of candy bar was sold?,"I'll use K for the Kit Kat bars, S for Snickers and P for Peanut Butter Cups.
+K=S+22
+P=K+32
+P+k+S=306
+If I divide 306 by 3, I get 102, there would be 102 bars of each if all were equal. Since there are more Kit Kats, I'll guess K=80.
+P=80+32=112
+80=S+22
+80=58+22, S=58
+P=112, K=80 and S=58
+Checking: 112+80+58=250
+Then, there are more Kit Kats...  My initial guess is wrong...","K+(K+32)+(K+22)=306
+K=84
+S=106
+P=116",,,,"Baroudi (2006)
+p. 4
+","The Learner wrote incorrectly the syntax of the algebraic equation for snickers and, instead of writing one single equation, the learner wrote 3, from which one was not correctly stated, showing a difficulty with the syntax of algebraic notation
+"
+"when students misunderstand the equal sign as indicating ""the answer is"" rather than representing a relationship between quantities",MaE51,Equations and inequalities,2,"Is the number that goes in the [_] the same number in the following two equations?
+2*[_]+15=31
+2*[_]+15-9=31-9","Yes, the answer is 31 in both equations",The number that goes in the squares is the same for both equations and it equals 8,,,,"Asquith et al.  2007
+p. 9",
+when students struggle to apply correct operations on ratios expressed as fractions,MaE25,Ratios and proportional reasoning,2,"3:2=24:x
+Find the value of x","32=24x
+32/24=x
+x=4/3",x=16,,,,"Kilpatrick, J., Swafford, J. O., & Findell, B. 2011, p. 265","The learner did not identify that 3:2 is the same as 3/2 and 24:x is another ratio, the learner just removed the : in both cases
+"
+"when students misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,4,Fold this piece of paper in half and then open it up. How many regions were made? Can you describe how many regions there would be for any number of folds?,2 regions folding once,Regions=2^n,,,,"Swafford and Langrall, 2000
+p. 7, 12",Learners oversimplified the interpretation of the geometric function
+when students inaccurately simplify fractions by guessing instead of dividing,MaE06,Number Operations,1,"Find an equivalent fraction for 3/8. If possible, simplify.",3/8=1/4,"3/8 can't be written in lower terms
+Equivalent fraction: 3/8=6/16",,,,"Ashlock, 2006",
+when students incorrectly drop extra decimal digits directly into their answer when subtracting uneven decimals,MaE17,Number Operations,3,$4-$.35,"$ 4 
+-  $  .35
+-----------
+$ 4.35",$3.65,,,,Ashlock (2006),
+when students struggle to grasp that variables can represent changing or varying quantities,MaE48,"Variables, expressions, and operations",3,"Can you tell which is larger, 2n or n+2? Please explain your answer","2n, because it is a multiplication","Can't tell, because for some n, 2n may equal or be less than n+2",,,,"Kuchemann 1978
+p. 5",
+"when students struggle to represent key aspects and relationships in patterns, as seen in attempts like graphical representations missing key components",MaE35,"Patterns, relationships, and functions",4,"Cody has 24 marbles. Joseph has 3 equal bags of marbles and 9 individual marbles. After Joseph took 9 marbles out of his bags and gave them to Ariana, Joseph and Cody had the same amount of marbles. How many marbles were in each of Joseph's bags?","[Graphic representation: Nine marbles taken out of the bag, Joseph and Cody's marbles are depicted as being equal sets, additional 9 marbles are shown as being removed]","The same pictorial representation provided by the learner, but including as well the return of 9 marbles taken out of the bag, division of the 24 marbles into 3 equal sets.",,MaE35-Ex4LA,MaE35-Ex4CA,"Scheuermann and van Garderen  (2008)
+p. 7","The laerner's representation is missing the return of 9 marbles taken out of the bag, and the division of the 24 marbles into 3 equal sets."
+"when students simplify just one of the terms in a fraction, either the numerator or the denominator",MaE07,Number Operations,1,Simplify the fraction 4/8,4/8=2/8,4/8=1/4,,,,"Ashlock, 2006","The learner simplified the numerator, but not the denominator"
+"when students wrongly position the decimal in multiplication by counting from the left, not the right",MaE20,Number Operations,4,4.5*0.1=?,"4.5
+x 0.1
+---------
+45.",0.45,,,,Ashlock (2006),
+when students find it challenging to comprehend the various meanings and applications of variables,MaE49,Equations and inequalities,4,"Mary's basic wage is $20 per week. She is also paid another $2 for each hour of over-time she works.
+If H stands for the number of hours of overtime Mary works and if W stands for her total wage, write an equation for finding Mary's total wage.","W=x+yH
+Using one letter for each unknown is easier",W=20+2H,,,,"Swafford & Langrall  2000
+p. 6","The learner just uses a different letter to represent each number, not identifying the constant values"
+"when students struggle to accurately represent problems using graphical notation, misunderstanding the purpose of the representation",MaE36,"Patterns, relationships, and functions",3,Leroy bought some pants for a total cost of $24.03. The sales tax was $1.53. What was the price of the pants without the sales tax?,"[The student drew a paint (""pants"" spelled incorrectly) can to represent the mathematics problem]","[A drawing of some pants or jeans labeled ""$24.03"" and ""Tax $1.53"" and a representation in the diagram of the division with decimals: 24.03÷1.53=15.7 the prices without the tax was $15.7]",,MaE36-Ex3LA,,"Scheuermann and van Garderen (2013)
+p. 3",The learner does not understand the purpose of the representation and drew a paint can instead of pants
+"when students incorrectly assume two variables in an equation must represent distinct numerical values, rather than potentially representing the same expression",MaE47,"Variables, expressions, and operations",3,"Are these number sentences true or false?
+a = a
+c = r","The first sentence is true, the variable a has to be the same in the same problem. The second one must be false, because when a letter represents a number, usually each letter represents a different number, not the same ones.","c=r could be true or false, depending on the values of these variables",,,,"Stephens (2005)
+p. 1",
+"when students misunderstand the equal sign as indicating ""the answer is"" rather than representing a relationship between quantities",MaE51,Equations and inequalities,4,"Students were shown the following equation on a balance: 5n+3n+11=5n+11+39 and asked if they noticed any equal terms on both sides and if they thought those terms could be removed. Next, students were asked to solve the remaining equation, 3n=39. Once the equation was solved, n=13, students were asked if this solution was also true for the original equation, 5n+3n+11=5n+11+39",I'm not sure that the solution is true for the original equation,"""yes, it's true for the original equation""",,,,"L Linchevski, N Herscovics (1996)
+p. 15",
+when students are unsure of the correct sign when adding positive and negative numbers,MaE18,Number Operations,3,7+-2=,7+-2=-5,5,,,,"Ashlock, 2006",
+"when students mistakenly position the decimal point left of the sum, assuming units and tenths combine separately",MaE16,Number Operations,2,6.7+8.5=,"6.7
++ 8.5
+-------
+14.12",15.2,,,,Ashlock (2006),
+when students incorrectly apply a single proportion formula to all percentage problems: (smaller value)/(larger value) = (x/100),MaE29,Ratios and proportional reasoning,4,Barbara received a gift of money on her birthday. She spent 80% of the money on a watch. The watch cost her $20. How much money did she receive as a birthday gift?,"(20/80)=(x/100)
+$25",$400,,,,"Ashlock (2006)
+p. 187",
+"when students incorrectly invert the dividend instead of the divisor when dividing fractions, misunderstanding the 'invert and multiply' rule.",MaE15,Number Operations,2,2/5÷1/3=?,2/5÷1/3=5/2*1/3=5/6,6/5,,,,"Ashlock (2006)
+p. 175",
+"when students struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,1,Solve: 2x+x=24,"x=2
+22+2=24",x=8,,,,"Ashlock, 2006",
+when students incorrectly drop extra decimal digits directly into their answer when subtracting uneven decimals,MaE17,Number Operations,2,24.8-2.26=?,"24.8
+-   2.26
+-----------
+ 22.66",22.54,,,,Ashlock (2006),
+"when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",MaE14,Number Operations,4,7/5÷3/2=?,7/5÷3/2=2/2,14/15,,,,"Ashlock (2006)
+p. 174",
+when students struggle to apply correct operations on ratios expressed as fractions,MaE25,Ratios and proportional reasoning,1,"If 5 quarters can buy 100 candies, how many quarters can buy 80 candies? Express the quantities as ratios and solve.","1q --> 20 c
+2q --> 40 c
+3q --> 60 c
+4q --> 80 c
+There's no ratio in this problem","Ratio: (5 quarters/100 candies)=(? quarters/80 candies)
+4 quarters",,,,"Ojose. B. 2015
+p. 4","The learner obtained the correct answer at the end, but she did it by writing a sequence, with an iterative method, not by understanding the ratio"
+when students incorrectly add or subtract fractions by summing both numerators and denominators separately,MaE08,Number Operations,1,4/5+2/3=,4/5+2/3=6/8,22/15,,,,Ashlock (2006),The learner added the numerator and the denominators
+when students incorrectly drop extra decimal digits directly into their answer when subtracting uneven decimals,MaE17,Number Operations,1,60-1.35=?,"60    
+- 1.35
+-----------
+59.35",58.65,,,,Ashlock (2006),
+"when students mistakenly perceive variables as labels or units, or associate their value with their alphabetical position",MaE46,"Variables, expressions, and operations",1,"The following question is about this expression:
+   2n + 3
+↑
+The arrow above points to a symbol.
+What does the symbol stand for?",The symbol stands for something which name starts with letter n.,The symbol can stand for any number.,,,,Asquith et al.  2007p. 11,
+"when students make reversal order errors, swapping variables in equations, such as writing 2X=Y instead of X=2Y",MaE54,Equations and inequalities,1,"Write an equation using the variables S and P to represent the following statement: ""There are six times as many students as professors at this university"". Use S for the number of students and P for the number of professors.",6S=P,S=6P,,,,"Clement, J. (1982)
+p. 3",
+"when students struggle to represent key aspects and relationships in patterns, as seen in attempts like graphical representations missing key components",MaE35,"Patterns, relationships, and functions",2,Kyle and Andrew have the same number of candies. Kyle has a bowl of candies and 4 additional candies. Andrew has 14 candies. How many candies are in Kyle's bowl?,"[Graphical representation of Kyle's candies with one bowl and 4 candies aside; also, Andrew's candies represented with 14 dots but nothing else].","[A pictorial representation of Kyle's candies with one bowl having 10 pieces in it and 4 aside, representing the 4 additional candies. On the other side, Andrew's candies represented with 14 dots or candy shapes and matching the 4 separated candies from Kyle's with 4 from Andrew's, chowing so that there are 10 in Kyle's bowl because both kids have the same amount of candies, which is 14]",,MaE35-Ex2LA,MaE35-Ex2CA,"Scheuermann and van Garderen  (2008)
+p. 5","Michael understood what representations were and how to use them, although Michael could depict accurate representations of the relationships in the problems, he was not consistently identifying or depicting all the relationships."
+"When students multiply the numerator of the first fraction by the denominator of the second fraction, they write down only the unit digit of this product and mistakenly save the tens digit for later use, then they multiply the denominator of the first fraction by the numerator of the second one and add the saved tend digit, obtaining an integer number instead of a fraction.",MaE12,Number Operations,1,4/5*3/4=,4/5*3/4=166,3/5,,,,Ashlock (2006),
+when students mistakenly switch variables when transposing expressions involving subtraction,MaE45,"Variables, expressions, and operations",2,"Write the expression that represents: “Tachi is exactly one year older than Bill” if T represented Tachi’s age and B, Bill’s age.",B-T=1,T=B+1,,,,"Capraro, M. M., & Joffrion, H. 2006
+p.18",The learner transposed the variables
+when students get confusion over operation symbols and their meanings in algebra,MaE53,Equations and inequalities,1,"Mary's basic wage is $20 per week. She is also paid another $2 for each hour of over-time she works.
+If H stands for the number of hours of overtime Mary works and if W stands for her total wage, write an equation for finding Mary's total wage.","I don't need to write an equation, I just have to analyze that
+1 week and 1 hour=20+2=22
+2 weeks and 2 hours=40+4=44 and so on...",W=20+2H,,,,"Swafford & Langrall  2000
+p. 6",The learner uses iteration rather than writing an equation to represent the problem symbolically
+"when students misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",MaE03,Number sense,1,What digit is in the one’s place of the number: (2^9)(3^4)(5^6),The result must end in zero,"(2^9)(3^4)(5^6)=648000000
+There is a zero in the ones place",,,,"Slavit, D. 2006
+p. 3, 5
+","The value of (2^9)(3^4)(5^6) is computed and the value of the one’s place identified. However, students could also identify a factor of 10 present in the product, either through initial computation or by an examination of the factors, and recognize that the value of the product must end in zero."
+"when students incorrectly invert the dividend instead of the divisor when dividing fractions, misunderstanding the 'invert and multiply' rule.",MaE15,Number Operations,4,5/8÷2/3=?,5/8÷2/3=8/5*2/3=16/15,15/16,,,,"Ashlock (2006)
+p. 175",
+"when students confuse linear relationships with direct proportions, believing that because a linear function increases or decreases at a constant rate, it must be a direct proportion.",MaE42,"Patterns, relationships, and functions",2,"Sara has made several purchases from a mail-order company.  She has found that the company charges $12.90 to ship an 8-kg package, $6.40 to ship a 3-kg package, and $9.00 to ship a 5-kg package.  Sara decides that the company must be using a  simple rule to determine how much to charge for shipping.  Help her figure out how much it would most likely cost to ship a 1-kg package and how much each additional kilogram would cost.","I will calculate the cost per kilogram for each package:
+12.9/8=1.6125 dollars per kg, for the 8-kg package
+6.40/3=2.1333 dollars per kg, for the 3-kg package
+9.00/5=1.80 dollars per kg, for the 5-kg package
+The average is: (1.6125+2.1333+1.80)/3=1.8486 dollars per kg
+The cost to ship 1-kg package is: (1.8486 dollars/kg)*(1 kg)=1.8486 dollars
+It will cost $1.85 to ship a 1-kg package, and each additional kilogram will cost $1.85","A linear function (y = 1.30x + 2.50) fits the three given values, the cost to ship a 1-kg package would be $3.80, and the cost for each additional kilogram is $1.30 (the slope).",,,,"Kilpatrick, J., Swafford, J. O., & Findell, B. (2001)
+p. 415","The learner tried to find a simple, constant rate per kilogram by averaging the costs and weights given, considering the problem as a direct proportion while it is a linear relationship."
+"when students struggle to represent key aspects and relationships in patterns, as seen in attempts like graphical representations missing key components",MaE35,"Patterns, relationships, and functions",3,"Joe rod his bike 2 miles to the bus station. He then boarded a bus that took him 12.5 miles. When he got off the bus, he walked 1 more mile to get to his friend's house. How far did Joe travel in all?","[The learner drew a bike and a bus station, writing ""2 miles"" in between]","A schematic representation including the bike, the bus station and the data provided in the statement: 2 miles by bike, 12.5 miles by bus, and 1 mile walked.",,MaE35-Ex3LA,,"Scheuermann and van Garderen  (2008)
+p. 4","Michael's representation is related to the problem, however he missed some key components to better illustrate the data of the problem and its solution."
+"when students confuse linear relationships with direct proportions, believing that because a linear function increases or decreases at a constant rate, it must be a direct proportion.",MaE42,"Patterns, relationships, and functions",4,"You have two gears on your table. Gear A has 8 teeth, and gear B has 12 teeth. Answer the following questions. 
+Devise  a way to keep track of gear B's revolutions","x  |  y
+0  |  5
+1   | 12
+2   | 19
+3   | 26
+5   | 40
+6   | 47
+On the x side, it's going up by ones, and on the other side, it's going up by ... sevens. It's a pattern, but this isn't linear. It has to
+ be a pattern that doesn't change. You know? It has to be like 3, 6, 9, like that.","Each time gear A makes one revolution, gear B moves 5 spaces. This is a linear function that can be modeled with the equation:
+y=7x+5",,,,"Ellis, A. B. (2009)",
+when students fail to see ratios as relationships between two quantities,MaE28,Ratios and proportional reasoning,4,Eric has 12 cups of lemonade that tastes exactly the same as Brody’s (3 cups of water for 2 cups of lemon juice). He needs a larger amount of lemonade. He pours one more cup of water and one more cup of lemon juice. Does his lemonade still taste the same? Why or why not?,"Since 4/3 = 1.33 and 3/2 = 1.5, the ratios are very close, so the lemonade will taste the same","Eric's lemonade will not taste the same anymore, because he did not add the water and lemon in the same proportions",,,,"JiYeong I, 2018","Students added 1 to each term of the given ratio. Treating a ratio as a single quantifiable, non-fraction, value. This shows their lack of understanding that a ratio is a relationship of two or more quantities, not quantities themselves"
+"when students lack unitization skills, unable to treat ratios as composite units to solve problems systematically.",MaE27,Ratios and proportional reasoning,4,"Last Saturday, Rachel shelled walnuts. She was paid $5.00 for the day, plus an additional $0.10 for each cup of walnuts she shelled. If Rachel earned a total of $17.00, how many QUARTS of walnuts did Rachel shell? Show all work.","17-5=12
+12÷5=2.4
+2.4 quarts","$17-$5=$12
+She earned $12 for the walnuts she shelled
+($0.10)/(1 cup)=($12)/(? cup)
+12÷0.10=120 cups
+(4 quarts)/(1 cup)=((? quarts)/(120 cups)
+4*120=480
+480 quarts",,,,"Bush, 2011
+p. 240-241","The learners showed the inability to unitize when converting between cups and quarts
+"
+"when students mistakenly add two negative numbers, yielding a positive sum, particularly in equations with variables",MaE32,Properties of number and operations,1,x+1-3+1-1+2-1=6 in the context of putting blocks in and out of a bag,"That’s putting in 4 and taking out 5.
+x+4-5=6
+x=6-5-4
+x=6+9=15",x=7,,,,"Tierney & Monk (2008)
+p. 189",
+when students struggle to understand that ratios can compare same or different units,MaE24,Ratios and proportional reasoning,4,"In baking a cake, for every 8 eggs, one needs 18 cups of flour. If Mary has 4 cups of flour, how many eggs does she need?","1.5 eggs
+[The learner answered without computing, not relating the number of cakes to the number of eggs]",1.78 eggs with 4 cups,,,,"Sigh, 2000
+p. 18","The learner used the unit method and computed 18 divided by 8 to match 1 cup with the number of eggs. She did it mentally and obtained 2.25 (which was actually 1 egg with 2.25 cups). When she multiplied 2.25 by 4 she found the result of 18 puzzling. ""That can't be!"" she said. Then she utilized the scalar method and computed a division of 18 by 4 which was 4.5. She  wrote: 4.5 cups with 2 eggs, 4 cups with 1.5 eggs [as both cups and eggs are lesser by 1/2]. She utilized the additive strategy"
+"when students fail to regroup in subtraction, mistakenly subtracting the larger number from the smaller",MaE21,Number Operations,2,Find the difference between 100 and 40.,"100
+- 40
+---------
+140",100-40=60,,,,"Bush (2011)
+p. 258
+ El ejemplo de los círculos inscritos en un cuadrado",
+"when students interchange minuend and subtrahend, reversing subtraction order, causing calculation errors, especially in equations or expressions",MaE33,Properties of number and operations,2,"Solve for n:
+5n+12=3n+24","5n+12=3n+24
+5n+12−5n=3n+24−5n
+12=−2n+24
+12−24=−2n+24−24
+−12=−2n
+n=-12/-2
+n=6",n=6,,,,"L Linchevski, N Herscovics (1996)
+p. 46","The learner tried to use inverse operations, but did the subtracction in reverse order. However, the learner got the correct answer. This demonstrates how sometimes incorrect methods can still lead to the correct answer."
+"when students struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,4,"Simplify: 3(6x-4)+2(3x-3)
+Show your work",3(6x-4)+2(3x-3)=18x-12+6x-6=18x-18+6x,24x-18,,,,"Bush, 2011
+p. 215-216","The learner only added the numbers, but did not combine the like terms containing x"
+"when students simplify just one of the terms in a fraction, either the numerator or the denominator",MaE07,Number Operations,4,Simplify the fraction 7/7,7/7=1/7,7/7=1,,,,"Ashlock, 2006","The learner simplified the numerator, but not the denominator"
+when students get confusion over operation symbols and their meanings in algebra,MaE53,Equations and inequalities,2,"Kate sold 12 tickets to a school play. Katie's total sales, t, for the tickets is given by the formula 
+12c=t
+where c is the cost per ticket.
+What were Katie's total sales if the cost of each ticket is $5?","All I have to do is to replace the first letter in the equation, with the first number given in the statement:
+12(12)=144","12c=t
+12*($5)=$60
+Katie's total sales were $60",,,,"Bush, 2011
+p. 183","The learner did not understand the meaning of the symbols representing the variables, so they substituted the amount of tickets in the variable on the left side of the equation"
+"when students wrongly position the decimal in multiplication by counting from the left, not the right",MaE20,Number Operations,3,4.35*2.3=?,"4.35
+x 2.3
+----------
+1305
+870
+-------
+100.05",10.005,,,,"Ashlock (2006)
+p. 176",
+when students incorrectly apply a single proportion formula to all percentage problems: (smaller value)/(larger value) = (x/100),MaE29,Ratios and proportional reasoning,3,"The taffy sale brought in a total of $750, but 78% of this was used for expenses. How much money was used for expenses?","(78/750)=(x/100)
+$10.4",$585,,,,"Ashlock (2006)
+p. 187",
+when students inaccurately simplify fractions by guessing instead of dividing,MaE06,Number Operations,2,Reduce 4/9,4/9=2/3,4/9 can't be reduced,,,,"Ashlock, 2006",
+"when students misunderstand how to identify and use equivalent forms of ratios, including fractions and decimals",MaE26,Ratios and proportional reasoning,1,"Express ""2/3 dollars per balloon"" with equivalent integer numbers.",$0.67 per balloon,$3 dollars per 9 balloons,,,,"Kilpatrick, J., Swafford, J. O., & Findell, B. 2011
+p. 263-264","The learner interpreted 2/3 as a division, rather than a ratio"
+"when students misunderstand the equal sign as indicating ""the answer is"" rather than representing a relationship between quantities",MaE51,Equations and inequalities,1,"3 + 4 = 7
+      ↑
+The arrow above points to a symbol.
+What does the symbol mean?","The symbol means ""add the numbers""",The symbol is the equal sign and it means that the statement on the left side is equivalent to the statement on the right side,,,,"Asquith et al.  2007
+p. 9",
+when students fail to see ratios as relationships between two quantities,MaE28,Ratios and proportional reasoning,3,"Samer has 35 red glass balls in a bag and 25 green glass balls.
+What is the ratio of the green balls to all glass balls in the bag in the simplest form?",25 and 60,5/12,,,,"Khasawneh 2022
+p. 6",
+"when learners wrongly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,2,Solve: 17-3*5= Check your answer.,16.98-3.11*4.4.137=15.61*5=65.03,1.98,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when learners wrongly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31","1.81n*3.42
+5.79","2.10n+2.56
+64.22",,,,"Bush, 2011
+p. 173",
+"when pupils erroneously perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,2,Solve: 17-3*5= (Show your work),17.73-3.04*4.83.39=14.88*5=81.31,2.29,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when learners mistakenly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,2,Solve: 17-3*5= Explain your reasoning.,11.74.12.99.91-3.53*5=14*5=82.94,2.28,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when learners mistakenly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31","2.2.510n*3
+7.13","2.06n+3.02
+73.41",,,,"Bush, 2011
+p. 173",
+"when pupils mistakenly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Explain your reasoning.","2.3.375n*3
+6.80","2.24n+2.62
+65.32",,,,"Bush, 2011
+p. 173",
+"when pupils erroneously perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,2,Solve: 17-3*5=,18.36-2.49*4.37=16.12*5.68=71.37,2.26,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when learners mistakenly perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Explain your reasoning.","1.82n*3.07
+6.49","1.90n+3.27
+55.71",,,,"Bush, 2011
+p. 173",
+"when pupils mistakenly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Explain your reasoning.","1.92.87.07n*3
+6","1.85n+2.70
+71.56",,,,"Bush, 2011
+p. 173",
+"when pupils erroneously perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Explain your reasoning.","1.6.521n*2.44
+6","2.02n+3.10
+71.54",,,,"Bush, 2011
+p. 173",
+"when learners mistakenly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Explain your reasoning.","2.00n*3.38
+5.52","1.84n+3.43
+67.54",,,,"Bush, 2011
+p. 173",
+"when pupils wrongly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Check your answer.","2.11n*2.52
+6.96","2.24n+2.67
+67.84",,,,"Bush, 2011
+p. 173",
+"when learners wrongly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 (Show your work)","2.16.94n*2.72
+6","1.88n+3.08
+67.96",,,,"Bush, 2011
+p. 173",
+"when pupils mistakenly perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,2,Solve: 17-3*5= (Show your work),20.03-2.95.63.34*5=15.95*5=67.74,2.00,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when pupils mistakenly perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,2,Solve: 17-3*5= Check your answer.,16.48-2.83*4.03=15.32.16*5=74.51,2.25,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when learners erroneously perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,2,Solve: 17-3*5= Check your answer.,15.67.21.65.51-3.11*5=12.74*5=70,1.96,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when learners wrongly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,2,Solve: 17-3*5=,13.4.740.09-3.32*4.58=14*5=62.52,2.29,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when learners erroneously perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 (Show your work)","1.81n*3.08
+6.49","2.25n+3.40
+61.43",,,,"Bush, 2011
+p. 173",
+"when pupils erroneously perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,2,Solve: 17-3*5= Check your answer.,14.34.28.43-2.75*5=15.61.28*5=70,2.00,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when learners erroneously perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,2,Solve: 17-3*5= Check your answer.,13.89-3.44*4.41.41=16.21*5=78.73,1.90,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when pupils erroneously perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 (Show your work)","2.12n*2.89
+6.98","1.73.11n+3
+59.96",,,,"Bush, 2011
+p. 173",
+"when pupils mistakenly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,2,Solve: 17-3*5=,13.80-2.5.03.975*5=16.24*5=79.44,1.91,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when pupils wrongly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31","2.24n*3.50
+6.24","1.81n+2.80
+66.97",,,,"Bush, 2011
+p. 173",
+"when learners mistakenly perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,2,Solve: 17-3*5= Explain your reasoning.,17.76-2.97*4.94.49=14.16*5=58.07,1.77,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when pupils mistakenly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Check your answer.","2.20n*2.94
+5.99","1.92n+2.56
+68.20",,,,"Bush, 2011
+p. 173",
+"when pupils wrongly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 (Show your work)","2.20n*3.28
+7.17","2.28n+3.40
+64.56",,,,"Bush, 2011
+p. 173",
+"when learners erroneously perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Check your answer.","1.81n*2.53
+6.24","2.12n+2.63
+74.72",,,,"Bush, 2011
+p. 173",
+"when pupils erroneously perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,2,Solve: 17-3*5=,12.4.974.88-2.42*4.24=14*5=69.26,1.72,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when learners erroneously perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,2,Solve: 17-3*5= Explain your reasoning.,14.28.37-3.38*5.48.84=14*5=73.89,1.76,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when pupils wrongly perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,2,Solve: 17-3*5=,16.94.72-3.5.107*5=14.95*5=73.06,1.96,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when learners wrongly perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Check your answer.","2.28n*2.87
+6.16","2.15n+3.02
+64.40",,,,"Bush, 2011
+p. 173",
+"when pupils wrongly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 (Show your work)","1.88n*3.38
+5.82","2.24n+3.38
+56.84",,,,"Bush, 2011
+p. 173",
+"when learners wrongly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Explain your reasoning.","2.2.5.6426n*3
+6","2.04n+3.29
+66.77",,,,"Bush, 2011
+p. 173",
+"when pupils mistakenly perform procedures from left to right, neglecting the proper order of procedures",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Explain your reasoning.","2.3.150n*3
+5.32","2.01n+3.33
+60.77",,,,"Bush, 2011
+p. 173",
+"when learners mistakenly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,2,Solve: 17-3*5=,19.43-2.4.494*5.89=13.10*5=73.92,1.71,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when pupils wrongly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,2,Solve: 17-3*5= Check your answer.,13.89-3.42*4.34=14.07*5.59=58.55,2.21,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when pupils erroneously perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 Explain your reasoning.","1.80n*2.97
+6.18","2.27n+2.82
+68.58",,,,"Bush, 2011
+p. 173",
+"when pupils mistakenly perform calculations from left to right, neglecting the proper order of calculations",MaE34,Properties of number and operations,4,"Read the following phrase:
+""three more than twice n""
+Write an expression to represent the phrase
+Evaluate the expression you wrote when  n = 31 (Show your work)","1.90n*2.88
+4.87","2.25n+2.63
+65.63",,,,"Bush, 2011
+p. 173",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,1,Solve: 2x+x=24 Explain your reasoning.,"x=1.90.33
+20.70+2=25.27",x=7.60,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50 Explain your reasoning.,"x=0.00
+35.30+20.31=47.35",x=10.21,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,1,Solve: 2x+x=24,"x=1.65
+1.852.94+2=19.31",x=8.77,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50,"x=0.00
+28.19+23.63=41.82",x=8.74,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,4,"Simplify: 3(6x-4)+2(3x-3)
+Show your work",1.77.5.5.9580(4.90x-4.24)+2(2.57x-2.76)=17.56x-13.98+6x-5.90=20.75x-14.69+6x,23.89x-16.67,,,,"Bush, 2011
+p. 215-216","The learner only added the numbers, but did not combine the like terms containing x"
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50 (Show your work),"x=0.00
+34.34+19.45=56.49",x=9.29,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,3,Solve: 5x+6x=110 Explain your reasoning.,"x=0.00
+50.16+49.25=115.24",x=10.12,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,3,Solve: 5x+6x=110 Explain your reasoning.,"x=0.00
+48.98+68.62=118.72",x=9.59,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,4,"Simplify: 3(6x-4)+2(3x-3)
+Show your work Explain your reasoning.",1.84.77(6.67.82.80x-2.80.86)+2(3x-3.37)=14.83x-10.04+6x-6.88=15.67x-15.59+6x,25.74x-16.39,,,,"Bush, 2011
+p. 215-216","The learner only added the numbers, but did not combine the like terms containing x"
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50,"x=0.00
+33.44.87+22.08=50",x=9.09,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50,"x=0.00
+30.58+19.48=48.50",x=8.71,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,4,"Simplify: 3(6x-4)+2(3x-3)
+Show your work Explain your reasoning.",1.7.052.57.74(5.26.20x-2.76.68)+2(3x-3)=16.48x-13.54+6x-6.90=14.81x-16.48+6x,21.76x-20.68,,,,"Bush, 2011
+p. 215-216","The learner only added the numbers, but did not combine the like terms containing x"
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50 (Show your work),"x=0.00
+28.75+20.94=49.49",x=11.29,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,1,Solve: 2x+x=24,"x=1.84
+2.294.94+2=28.46",x=7.31,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,1,Solve: 2x+x=24 (Show your work),"x=1.77
+2.064.46+2=20.34",x=7.94,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,3,Solve: 5x+6x=110 Check your answer.,"x=0.00
+59.44+67.38=104.15",x=9.47,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50 Check your answer.,"x=0.00
+29.19+22.73=57.64",x=9.22,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,4,"Simplify: 3(6x-4)+2(3x-3)
+Show your work",1.88.5.529(5.89.68x-4.75)+2(3.23x-2.91)=17.84x-10.58+6x-6.53=19.35x-16.76+6x,20.71x-20.55,,,,"Bush, 2011
+p. 215-216","The learner only added the numbers, but did not combine the like terms containing x"
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50 Explain your reasoning.,"x=0.00
+35.79+23.81=56.11",x=8.77,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,4,"Simplify: 3(6x-4)+2(3x-3)
+Show your work Check your answer.",2.20.50(4.84x-4.01)+2(2.6.35.133x-3.12)=15.56x-11.86+6x-6.99=20.93x-21.38+6x,25.24x-18.96,,,,"Bush, 2011
+p. 215-216","The learner only added the numbers, but did not combine the like terms containing x"
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,4,"Simplify: 3(6x-4)+2(3x-3)
+Show your work Check your answer.",1.87.94(5.94.3.329x-2.83.58)+2(3x-3)=21.05.45.65x-11.00+6x-5.97=18x-19.33+6x,27.02x-15.54,,,,"Bush, 2011
+p. 215-216","The learner only added the numbers, but did not combine the like terms containing x"
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,1,Solve: 2x+x=24,"x=2.21.25
+24.12.68+2=24",x=8.54,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,3,Solve: 5x+6x=110 Check your answer.,"x=0.00
+48.66+66.85=113.63",x=10.17,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,1,Solve: 2x+x=24 Explain your reasoning.,"x=1.66
+2.395.58+2=26.48",x=7.35,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,1,Solve: 2x+x=24,"x=1.70
+2.126.04+2=27.76",x=6.91,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50 Explain your reasoning.,"x=0.00
+25.89+22.52=47.29",x=9.03,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,4,"Simplify: 3(6x-4)+2(3x-3)
+Show your work (Show your work)",2.47.15.54.07(5.37x-4.80)+1.85(3x-2.93)=15.07x-12.49+6x-5.98=18.90x-15.42+6x,20.63x-20.42,,,,"Bush, 2011
+p. 215-216","The learner only added the numbers, but did not combine the like terms containing x"
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,3,Solve: 5x+6x=110 Check your answer.,"x=0.00
+49.69.41+60=121.60",x=11.28,,,,"Ashlock, 2006",
+"when learners struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,3,Solve: 5x+6x=110 Check your answer.,"x=0.00
+49.85+71.85=92.82",x=9.02,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,4,"Simplify: 3(6x-4)+2(3x-3)
+Show your work Explain your reasoning.",3.51.50(5.14.98x-4.05.32)+1.89(3x-2.87)=19.19.32x-12.25+6x-5.11=18x-15.73+6x,24.89x-16.82,,,,"Bush, 2011
+p. 215-216","The learner only added the numbers, but did not combine the like terms containing x"
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50,"x=0.00
+32.18+18.38=46.58",x=10.94,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50,"x=0.00
+34.70+23.74=40.83",x=10.34,,,,"Ashlock, 2006",
+"when pupils struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",MaE55,Equations and inequalities,2,Solve: 3x+2x=50,"x=0.00
+27.15+16.02=51.97",x=10.41,,,,"Ashlock, 2006",
+"when learners misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,2,(z -4)^2= Explain your reasoning.,(z-3.1.833)^2.02=(z+2)(z-1.82),z^2.04-6.85z+16.69,,,,Pinchback (1991),"This example shows the lack of understanding that algebra students have regarding exponents. This learner for example, interpreted the expression (z-4)^2 as (z+2)(z-2)"
+when learners confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",1,Determine whether a situation of 3^(x-1) repeated 6 times would produce a greater yield than 2^(x-1) repeated 64 times. Do you predict this situation will be linear or exponential? How do you know? What did you think about to help you make this prediction? (Show your work),"The second situation will produce a greater yield, because it is repeated more thimes. I predict this situation would be linear, because x-0.92 is a linear relationship. To help me make this prediction, I thought about an example from previous classes, where x-0.88 was a linear situation.",The situation will be exponential in both cases because each term is raised to a power that includes a variable x.,,,,"LA Kasmer, OK Kim  (2012)
+p. 12","The learner gets confused between a linear and an exponential function, because the exponent includes a linear expression."
+"when learners misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,4,Fold this piece of paper in half and then open it up. How many regions were made? Can you describe how many regions there would be for any number of folds?,2.23 regions folding once,Regions=1.92^n,,,,"Swafford and Langrall, 2000
+p. 7, 12",Learners oversimplified the interpretation of the geometric function
+"when learners misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",MaE03,Number sense,1,What digit is in the one’s place of the number: (2^9)(3^4)(5^6) Explain your reasoning.,The result must end in zero,"(2.24.28^7.99)(3.29^4)(5.13^5.85)=573003101.81
+There is a zero in the ones place",,,,"Slavit, D. 2006
+p. 3, 5
+","The value of (2^9)(3^4)(5^6) is computed and the value of the one’s place identified. However, students could also identify a factor of 10 present in the product, either through initial computation or by an examination of the factors, and recognize that the value of the product must end in zero."
+"when learners misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,2,(z -4)^2= Explain your reasoning.,(z-3.1.66.083)^2=(z+2)(z-2.25),z^1.76-8.50z+18.36,,,,Pinchback (1991),"This example shows the lack of understanding that algebra students have regarding exponents. This learner for example, interpreted the expression (z-4)^2 as (z+2)(z-2)"
+when learners confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",2,"Consider a coin collection with an initial value of $2,500 that increased in value by 6% each year. Generate a table showing the value of the collection each year for 10 years and determine the growth factor of this situation. Do you predict the increase in coin value would be linear, exponential, or something else? Explain why. (Show your work)","The increase in coin value would be something else. The reason it's not linear is it doesn't always increase the same amount. The reason it's not exponential is the #'s don't double or triple. In this case every year goes by and the value increases, but 5.05% comes out of the higher value every year to add on.",Exponential because it's not going at a constant rate and its growth factor is 1.02 .5.14 from 2167.50 to 2681.40 and also 2698.04 to 2435.07 has a growth factor of 1.08. So if it keeps multiplying by 1.21 then its exponential growth,,,,"LA Kasmer, OK Kim  (2012)
+p. 7","This vignette demonstrates the prediction question afforded the student an opportunity to make an explicit connection to attributes of linear (""doesn't always increase the same amount"") and exponential (""the #s don't double or triple"") relationships. Although the response is not mathematically accurate, as this in fact is considered an exponential relationship, the prediction response was coded as logical because it revealed an initial understanding of compound growth. The student seemed to regard exponential growth only as whole number growth factors and perhaps those that only double and triple, but recognized the addition of 6% value each year from the previous year."
+"when learners misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,2,(z -4)^2= Explain your reasoning.,(z-3.71)^2.33.06=(z+2)(z-2.04),z^2.17-6.87z+14.84,,,,Pinchback (1991),"This example shows the lack of understanding that algebra students have regarding exponents. This learner for example, interpreted the expression (z-4)^2 as (z+2)(z-2)"
+when learners confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",3,"Determine whether a situation that doubles x amount of times would yield more rubas than adding 5x amount of times and beginning with 20 rubas.
+Predict whether this situation will be a better offer for the peasant or the king. How do you know? Explain your reasoning.","Adding 4.60x will make more, because 5.2.045 is bigger than 2 (doubles)","Doubling x will yield more rubas than adding 5.13.13x amount, because doubling is exponential and adding 5x is a linear relationship",,,,"LA Kasmer, OK Kim  (2012)
+p. 12",
+"when pupils misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,3,"Write an algebraic expression to represent: 
+""Four times a number"" Explain your reasoning.",x^3.43,3.51x,,,,"Stacey and MacGregor, 1997b
+p. 3",The learner confused an exponent with a factor
+"when learners misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,3,"Write an algebraic expression to represent: 
+""Four times a number"" Explain your reasoning.",x^4.49,4.04x,,,,"Stacey and MacGregor, 1997b
+p. 3",The learner confused an exponent with a factor
+"when pupils misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,4,Fold this piece of paper in half and then open it up. How many regions were made? Can you describe how many regions there would be for any number of folds?,1.64 regions folding once,Regions=2.21^n,,,,"Swafford and Langrall, 2000
+p. 7, 12",Learners oversimplified the interpretation of the geometric function
+when pupils confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",2,"Consider a coin collection with an initial value of $2,500 that increased in value by 6% each year. Generate a table showing the value of the collection each year for 10 years and determine the growth factor of this situation. Do you predict the increase in coin value would be linear, exponential, or something else? Explain why.","The increase in coin value would be something else. The reason it's not linear is it doesn't always increase the same amount. The reason it's not exponential is the #'s don't double or triple. In this case every year goes by and the value increases, but 6.45% comes out of the higher value every year to add on.",Exponential because it's not going at a constant rate and its growth factor is 1.07 .6.06 from 2241.49 to 2735.89 and also 2887.74 to 2593.26 has a growth factor of 1.03. So if it keeps multiplying by 0.96 then its exponential growth,,,,"LA Kasmer, OK Kim  (2012)
+p. 7","This vignette demonstrates the prediction question afforded the student an opportunity to make an explicit connection to attributes of linear (""doesn't always increase the same amount"") and exponential (""the #s don't double or triple"") relationships. Although the response is not mathematically accurate, as this in fact is considered an exponential relationship, the prediction response was coded as logical because it revealed an initial understanding of compound growth. The student seemed to regard exponential growth only as whole number growth factors and perhaps those that only double and triple, but recognized the addition of 6% value each year from the previous year."
+when pupils confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",3,"Determine whether a situation that doubles x amount of times would yield more rubas than adding 5x amount of times and beginning with 20 rubas.
+Predict whether this situation will be a better offer for the peasant or the king. How do you know? Explain your reasoning.","Adding 5.33.39x will make more, because 5 is bigger than 1.83 (doubles)","Doubling x will yield more rubas than adding 4.41x amount, because doubling is exponential and adding 4.28x is a linear relationship",,,,"LA Kasmer, OK Kim  (2012)
+p. 12",
+"when learners misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,3,"Write an algebraic expression to represent: 
+""Four times a number"" (Show your work)",x^3.33,4.12x,,,,"Stacey and MacGregor, 1997b
+p. 3",The learner confused an exponent with a factor
+when learners confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",3,"Determine whether a situation that doubles x amount of times would yield more rubas than adding 5x amount of times and beginning with 20 rubas.
+Predict whether this situation will be a better offer for the peasant or the king. How do you know? Check your answer.","Adding 4.2.281x will make more, because 4.63 is bigger than 2 (doubles)","Doubling x will yield more rubas than adding 5.25.09x amount, because doubling is exponential and adding 5x is a linear relationship",,,,"LA Kasmer, OK Kim  (2012)
+p. 12",
+when pupils confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",4,"Explore growth of paper ballots as they are repeatedly cut in half. If Alejandro makes ten cuts, can you predict how many ballots Alejandro might have? What is your reasoning? Explain your reasoning.",Yes. If you set up an equation like 1.98x then you put 11.19 in for x and 1.60 times 11.37 equals 18.15 and find the answer 16.47 All you have to do is set up the equation,1.84^n=1.98^8.62=934.96,,,,"LA Kasmer, OK Kim (2012)
+p. 14","As is apparent from this example, the student relied solely on a mathematical calculation [multiplying 2 by 10] to arrive at the response to the prediction question
+"
+"when learners misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,1,(z -4)^2= (Show your work),"(z -3.33.2.03.086)^1.82=
+(z-3.23)(z+4.30)=z^2+4z-3.66z-13.54=z^2-12.99",z^2.27-7.12z+16.64,,,,Pinchback (1991),"This example shows the lack of understanding that algebra students have regarding exponents. This learner for example, interpreted the expression (z-4)^2 as (z-4)(z+4) "
+"when learners misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,3,"Write an algebraic expression to represent: 
+""Four times a number"" Explain your reasoning.",x^4.55,4.09x,,,,"Stacey and MacGregor, 1997b
+p. 3",The learner confused an exponent with a factor
+"when learners misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,2,(z -4)^2= Check your answer.,(z-3.44)^1.65=(z+1.97)(z-2.34),z^2.29-8.33z+18.39,,,,Pinchback (1991),"This example shows the lack of understanding that algebra students have regarding exponents. This learner for example, interpreted the expression (z-4)^2 as (z+2)(z-2)"
+when learners confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",2,"Consider a coin collection with an initial value of $2,500 that increased in value by 6% each year. Generate a table showing the value of the collection each year for 10 years and determine the growth factor of this situation. Do you predict the increase in coin value would be linear, exponential, or something else? Explain why. (Show your work)","The increase in coin value would be something else. The reason it's not linear is it doesn't always increase the same amount. The reason it's not exponential is the #'s don't double or triple. In this case every year goes by and the value increases, but 5.02% comes out of the higher value every year to add on.",Exponential because it's not going at a constant rate and its growth factor is 1.03 .5.25 from 2616.27 to 2647.42 and also 2302.93 to 2438.44 has a growth factor of 1.10. So if it keeps multiplying by 0.98 then its exponential growth,,,,"LA Kasmer, OK Kim  (2012)
+p. 7","This vignette demonstrates the prediction question afforded the student an opportunity to make an explicit connection to attributes of linear (""doesn't always increase the same amount"") and exponential (""the #s don't double or triple"") relationships. Although the response is not mathematically accurate, as this in fact is considered an exponential relationship, the prediction response was coded as logical because it revealed an initial understanding of compound growth. The student seemed to regard exponential growth only as whole number growth factors and perhaps those that only double and triple, but recognized the addition of 6% value each year from the previous year."
+"when learners misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,4,Fold this piece of paper in half and then open it up. How many regions were made? Can you describe how many regions there would be for any number of folds? Explain your reasoning.,1.73 regions folding once,Regions=1.87^n,,,,"Swafford and Langrall, 2000
+p. 7, 12",Learners oversimplified the interpretation of the geometric function
+when learners confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",3,"Determine whether a situation that doubles x amount of times would yield more rubas than adding 5x amount of times and beginning with 20 rubas.
+Predict whether this situation will be a better offer for the peasant or the king. How do you know? Check your answer.","Adding 4.87.03x will make more, because 5 is bigger than 2.32 (doubles)","Doubling x will yield more rubas than adding 4.96x amount, because doubling is exponential and adding 5.72x is a linear relationship",,,,"LA Kasmer, OK Kim  (2012)
+p. 12",
+"when pupils misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,2,(z -4)^2= (Show your work),(z-3.52.20.14)^2=(z+2)(z-1.72),z^1.86-7.17z+13.82,,,,Pinchback (1991),"This example shows the lack of understanding that algebra students have regarding exponents. This learner for example, interpreted the expression (z-4)^2 as (z+2)(z-2)"
+when pupils confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",2,"Consider a coin collection with an initial value of $2,500 that increased in value by 6% each year. Generate a table showing the value of the collection each year for 10 years and determine the growth factor of this situation. Do you predict the increase in coin value would be linear, exponential, or something else? Explain why.","The increase in coin value would be something else. The reason it's not linear is it doesn't always increase the same amount. The reason it's not exponential is the #'s don't double or triple. In this case every year goes by and the value increases, but 4.87% comes out of the higher value every year to add on.",Exponential because it's not going at a constant rate and its growth factor is 0.97 .5.50 from 2230.64 to 2697.46 and also 2860.55 to 2658.10 has a growth factor of 1.02. So if it keeps multiplying by 1.09 then its exponential growth,,,,"LA Kasmer, OK Kim  (2012)
+p. 7","This vignette demonstrates the prediction question afforded the student an opportunity to make an explicit connection to attributes of linear (""doesn't always increase the same amount"") and exponential (""the #s don't double or triple"") relationships. Although the response is not mathematically accurate, as this in fact is considered an exponential relationship, the prediction response was coded as logical because it revealed an initial understanding of compound growth. The student seemed to regard exponential growth only as whole number growth factors and perhaps those that only double and triple, but recognized the addition of 6% value each year from the previous year."
+"when learners misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",MaE03,Number sense,3,5^-2=? (Show your work),5.63.59^-1.84.22=5*10.01^-2,0.05,,,,"Farah (1993)
+p.11","The learner has the wrong idea that ""we can write any number in the form of a power of 10, by writing the base times ten at the negative number. This rule applies always to negative powers. Another example is: 15^-6=15*10^-6"""
+"when pupils misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",MaE03,Number sense,3,5^-2=? Explain your reasoning.,4.75.11^-1.71=5*9.25^-2.29,0.05,,,,"Farah (1993)
+p.11","The learner has the wrong idea that ""we can write any number in the form of a power of 10, by writing the base times ten at the negative number. This rule applies always to negative powers. Another example is: 15^-6=15*10^-6"""
+"when pupils misunderstand algebraic terms and equations involving exponents, such as numerical bases raised to algebraic powers, or algebraic expressions raised to numerical or algebraic powers.",MaE04,Number sense,4,Fold this piece of paper in half and then open it up. How many regions were made? Can you describe how many regions there would be for any number of folds? Check your answer.,1.94 regions folding once,Regions=2.17^n,,,,"Swafford and Langrall, 2000
+p. 7, 12",Learners oversimplified the interpretation of the geometric function
+when learners confuse linear and exponential functions' properties and representations.,MaE39,"Patterns, relationships, and functions",4,"Explore growth of paper ballots as they are repeatedly cut in half. If Alejandro makes ten cuts, can you predict how many ballots Alejandro might have? What is your reasoning? (Show your work)",Yes. If you set up an equation like 1.67x then you put 11.78.65 in for x and 1.67 times 10 equals 19.5678 and find the answer 20. All you have to do is set up the equation,1.91^n=2.17^10.87=1004.90,,,,"LA Kasmer, OK Kim (2012)
+p. 14","As is apparent from this example, the student relied solely on a mathematical calculation [multiplying 2 by 10] to arrive at the response to the prediction question
+"

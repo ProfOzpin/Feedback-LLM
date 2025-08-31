@@ -1,0 +1,140 @@
+Misconception,Misconception ID,Topic,Example Number,Question,Incorrect Answer,Correct Answer,Question image,Learner Answer image,Correct Answer image,Source,Explanation
+when students confuse fixed scaling (absolute) with ratio comparisons (relative) in proportional relationships.,MaE23,Ratios and proportional reasoning,2,"Adrian has conquered only 6 giants in his new video game, Giant Trouble, but this is only two-fifths of the giants that he must conquer. How many giants are there in the new video game?","6÷1/5=30 giants
+There are six giants conquered, and since the number of giants is being divided into fifths, then there must be thirty giants","6÷2/5=30/2=15
+15 giants",,,,"Brown, G., & Quinn, R. J. (2006) 
+p. 5",The student divided the six giants into fifths; his result was 30 giants
+when students inaccurately simplify fractions by guessing instead of dividing,MaE06,Number Operations,3,How does subtracting 1/3 from 2/5 compare with subtracting 1/10 from 2/5? Which set of fractions will produce a larger difference? Explain your answer.,"It seems that 1/10 is smaller than 1/3, so subtracting 1/10 from 2/5 should produce a larger difference","2/5-1/3=6/15-5/15=1/15
+2/5-1/10=4/10-1/10=3/10
+3/10>1/15
+Subtracting 1/10 from 2/5 produces a larger difference",,,,"Johanning (2011),
+p. 98-99",The learner estimated instead of solving both subtractions to compare the results
+"when students struggle to discern the three types of percent problems, relying solely on ""percent times a number equals percentage"" rule",MaE30,Ratios and proportional reasoning,4,What percent of 125 is 25?,"125*.25=32.25
+31.25",20%,,,,"Ashlock (2006)
+p. 192",
+when students struggle with forming and understanding algebraic expressions and equations.,MaE50,Equations and inequalities,3,"Two students have the same amount of candies. Briana has one box, two tubes, and 7 loose candies. Susan has one box, one tube, and 20 loose candies. If each box has the same amount and each tube has the same amount, can you figure out how much each tube holds? Each box? Write algebraic expressions to represent the problem.","Box=B
+Tube=T
+Briana: 1B+2T+7
+Susan: 1B+1T+20
+B+2T+B+T=20+7
+2B+3T=27
+I need more information to solve the problem, or I have to guess the amount of candies in the box...","Tube:13 candies
+The box could contain any amount of candies",,,,"Baroudi (2006)
+p. 5","The learner shows difficulty with the syntax of algebraic notation, given that the two initial expressions were correctly stated, but failed to put them together in one single equation to find a possible solution"
+"when students fail to regroup in subtraction, mistakenly subtracting the larger number from the smaller",MaE21,Number Operations,4,"A television station charges $1,089 for a sixty-second commercial and $325 for a fifteen-second commercial. 
+The television station also sells 10 minutes of commercial time for a total of $10,000. 
+How much will an advertiser save if they purchase the 10-minute block of commercials instead of 7 sixty-second commercials and 12 fifteen-second commercials?","(1,089*7)+(12*325) = 7,623+3,900=11,523
+10,000
+-11,523
+-----------
+-1,523","The advertiser will save $1,523.00",,,,"Bush. 2011
+p. 249-251",
+"when students mistakenly perceive variables as labels or units, or associate their value with their alphabetical position",MaE46,"Variables, expressions, and operations",4,Sue weighs 1 kg less than Chris. Chris weighs y kg. What can you write for Sue's weight?,x,y-1,,,,"MacGregor and Stacey  1997
+p. 6","Assumed reasoning: ""Although 10 can be 'joined' to h, as 10h, 1 cannot be 'removed' from y. To denote 1 less than y, write x"""
+"when students confuse signs of operations and signs of numbers, inappropriately applying the rule ""two negatives make a positive"".",MaE19,Number Operations,4,-2+-5=,-2+-5=7,-7,,,,Ashlock (2006),
+"when students confuse signs of operations and signs of numbers, inappropriately applying the rule ""two negatives make a positive"".",MaE19,Number Operations,3,-4+-3=,-4+-3=7,-7,,,,Ashlock (2006),
+"when students interchange minuend and subtrahend, reversing subtraction order, causing calculation errors, especially in equations or expressions",MaE33,Properties of number and operations,1,"Solve for n:
+13n+196=391","13n+196=391
+13n=196-391
+13n=-195
+n=-15",15,,,,"L Linchevski, N Herscovics (1996)
+p. 46","The learner tried to use inverse operations, but did the subtracction in reverse order."
+when students find it challenging to comprehend the various meanings and applications of variables,MaE49,Equations and inequalities,3,x+4=2,"x=2
+Variables can't take negative numbers, so the answer has to be 2",x=-2,,,,"Vlassis, J (2008)
+p. 5","The learners show struggle in finding the negative value of x. Students also attempt to avoid negative solutions to equations, involving for example, changing the structure of an equation or a problem definition in order to obtain a positive solution, because they think that variables can't take negative values, or they are no longer sure if the minus sign is a subtraction sign or if it is part of a negative number"
+when students struggle with forming and understanding algebraic expressions and equations.,MaE50,Equations and inequalities,2,"Solve:
+(x+3)^2<=6x+18",(x+3)^2+6(x+3)=0,-3<=x<=3,,,,"Novotna, J., & Hoch, M. (2008) 
+p. 8",
+"when students confuse linear relationships with direct proportions, believing that because a linear function increases or decreases at a constant rate, it must be a direct proportion.",MaE42,"Patterns, relationships, and functions",1,"Sue and Julie were running equally fast around a track. Sue started first. When she had run 9 laps, Julie had run 3 laps. When Julie completed 15 laps, how many laps had Sue run?","9/3=x/15, so x=45",Sue had run 21 laps when Julie completed 15 laps,,,,"W Van Dooren, D De Bock, A Hessels, D Janssens (2004)","The learner answered by means of a proportion, while the problem is a linear relationship, because both Sue and Julie had run a distance before observing them."
+"when students confuse signs of operations and signs of numbers, inappropriately applying the rule ""two negatives make a positive"".",MaE19,Number Operations,1,-6+-8=,-6+-8=2,-14,,,,Ashlock (2006),
+"when students subtract mixed numbers incorrectly, avoiding regrouping and just subtracting the smaller from the larger number",MaE10,Number Operations,2,Solve 8 1/3-2/3,8 1/3-2/3=4 1/2,7 2/3,,,,Ashlock (2006),
+when students struggle to understand that ratios can compare same or different units,MaE24,Ratios and proportional reasoning,2,"If 4 cents can buy 6 sweets, how many can 10 cents buy?","4/6=0.66
+This makes no sense
+4 cents buy 6 sweets and 8 cents buy 12 sweets and 6 cents buy 9 sweets. You see, 6 is between 4 and 8, so 4 cents you buy 6 sweets, 6 cents 9 sweets,
+8 cents 12 sweets, 10 cents 15 sweets, 12 cents 18 sweets. There is a pattern: 3,6,9, 12... 15 sweets","(4 cents)/(6 sweets) = (10 cents)/(? sweets)
+(10 cents)*(6 sweets)/(4 cents) = 60/4 sweets = 15 sweets",,,,"Singh, P. (2000).","Karen tried to solve this task utilizing the formal method of unit analysis, (find the rate for one and multiplying to get the rate for many). She divided 4 by 6 and obtained 0.66 which did not make sense to her. She seemed confused about this outcome and abandoned it. She then used a method which was more meaningful to her. She spent quite some time writing on her paper and used her fingers occasionally in doing calculations. After some time working on it, she said: ""15 sweets. 4 cents buy 6 sweets and 8 cents buy 12 sweets and 6 cents buy 9 sweets. You see, 6 is between 4 and 8, so 4 cents you buy 6 sweets, 6 cents 9 sweets,
+8 cents 12 sweets, 10 cents 15 sweets, 12 cents 18 sweets. There is a pattern
+3,6,9, 12... 15 sweets"". Karen only found the pattern, but never considered the units in the ratios"
+when students struggle to understand that ratios can compare same or different units,MaE24,Ratios and proportional reasoning,1,"To bake donuts, Mariah needs 8 cups of flour to bake 14 donuts. Using the same recipe, how many donuts can she bake with 12 cups of flour?","I am counting... I am trying to divide 14 by 8... I got 1.75 and I times (multiplied) by 12.
+1.75*12 you get... 350+175, so... 35.0+17.5=53
+53 donuts","In this case, it is intended to find the unit value to relate donuts to cups of flour, then calculate the amount needed with the proportional method, observing the correct units involved:
+(14 donuts)/(8 cups)=(1.75 donuts)/(1 cup)
+(1.75 donuts/cup)*(12 cups)=21 donuts
+21 donuts",,,,"Singh, 2000
+p. 16-17","She did not try to construct a relationship between 8 cups and 12 donuts as 1 1/2 times more, which is an important criterion in multiplicative reasoning. She relied heavily on  algorithmic procedures and utilized additive reasoning"
+"when students mistakenly position the decimal point left of the sum, assuming units and tenths combine separately",MaE16,Number Operations,3,0.6+0.9=,".6
++.9
+-------
+0.15",0.6+0.9 = 1.5,,,,Ashlock (2006),
+when students incorrectly drop extra decimal digits directly into their answer when subtracting uneven decimals,MaE17,Number Operations,4,87-0.31=?,"87  
+-   .31
+---------
+87.31",86.69,,,,Ashlock (2006),
+when students struggle to apply correct operations on ratios expressed as fractions,MaE25,Ratios and proportional reasoning,3,If 5/8=x/24 then find x,"x = 5*8÷24
+40÷24=40/24=20/12=10/6",x=15,,,,"Brown, G., & Quinn, R. J. (2006) 
+p. 6","The learner did not identify the ratio and did not apply the algorithm of a proportional ratio to solve it
+"
+when students mistakenly switch variables when transposing expressions involving subtraction,MaE45,"Variables, expressions, and operations",4,"""z is equal to the sum of 3 and y."" Write this information in mathematical symbols",z=3y,z=3+y,,,,"Stacey, K & MacGregor M (2014)
+
+p. 5",
+when students inaccurately simplify fractions by guessing instead of dividing,MaE06,Number Operations,4,Write 3 5/6 as an improper fraction.,3 5/6=3+1=4,23/6,,,,"Brown, G., & Quinn, R. J. (2006)
+p. 4",The learner estimated 5/6 = 1
+"when students incorrectly perform operations from left to right, neglecting the proper order of operations",MaE34,Properties of number and operations,1,Solve: 5+6*10=,5+6*10=11*10=110,65,,,,"Linchevski, L., & Livneh, D. 1999
+p. 7","The learner just solved the operations left to right, ignoring the priority of multiplication over addition"
+"when students lack unitization skills, unable to treat ratios as composite units to solve problems systematically.",MaE27,Ratios and proportional reasoning,1,John used exactly 15 cans to paint 18 chairs. How many chairs can he paint with 25 cans?,"810 chairs
+18+18+18=54 cans. 20 cans-162 chairs [she got this by multiplying it by 3] 25 cans-810 chairs [The algorithmic procedures on her working paper were: 162+162+162+162+162= 810]","(15 cans)/(18 chairs)=(25 cans)/(? chairs)
+(25*18)÷15=30
+30 chairs",,,,"Singh, 2000
+p. 17","Alice was not able to construct a composite unit consisting of 15 to 18. Her reasoning seemed to be based on additive reasoning rather than multiplicative reasoning where each subsequent ratio is added on to the previous one. She was not able to unite a sequence of counting acts into composite units. Her 'adding' iteration was schematized as a ratio unit of 1 can to 18 chairs, where for each  additional can, she added 18 chairs"
+when students find it challenging to comprehend the various meanings and applications of variables,MaE49,Equations and inequalities,2,"Mary's basic wage is $20 per week. She is also paid another $2 for each hour of over-time she works. 
+If H stands for the number of hours of overtime Mary works and if W stands for her total wage, write an equation for finding Mary's total wage.",n=20n+2n,W=20+2H,,,,"Swafford & Langrall  2000
+p. 6",The learner struggles with the meaning of a variable and uses letter n to represent all the varying quantities in the problem
+"when students confuse signs of operations and signs of numbers, inappropriately applying the rule ""two negatives make a positive"".",MaE19,Number Operations,2,-8+-3=,-8+-3=5,-11,,,,Ashlock (2006),
+when students get confusion over operation symbols and their meanings in algebra,MaE53,Equations and inequalities,3,"The amount of money Hank earns after working h hours is given by the equation below. Let m equal the amount of money Hank earns.
+m=$7h
+How much money would Hank earn after working 35 hours?","m=7+35=42
+$42","m=$7h
+m=7*35=245
+Hank would earn $245 after working 35 hours",,,,"Bush, 2011
+p, 184","The learner has issues interpreting the symbolic notation in the equation, and adds instead of multiplying"
+"when students struggle to connect different representations of the same function (graph, equation, table).",MaE41,"Patterns, relationships, and functions",4,Graph the function 4x+1.,"The slope, which is 4, the y-intercept, which is 1, ...and... the x-intercept, which is 1/4, so we've found everything. [The learner did not make the graph]",f(x)=4x+1 and the correct graph shown in the image,,,MaE41-Ex4CA,"Kalchman, M., & Koedinger, K. R. (2005)
+p. 20",
+"when Students think longer numerals mean larger numbers, misunderstanding place value",MaE05,Number sense,1,"Fill in the blank with >, < or =
+0.04 __ 0.5",0.04 > 0.5,0.04 < 0.5,,,,"Ashlock, 2006
+p. 141","When Tonya compares two decimals, she appears to focus primarily on the ""size"" of the numeral and thinks that a numeral with an additional place is for a greater number because the numeral is longer. She does not compare product values of digits, she does not consider face value times place value of a digit when comparing two decimals. In short, she does not compare the total values of the numbers shown."
+"when students simplify just one of the terms in a fraction, either the numerator or the denominator",MaE07,Number Operations,2,Simplify the fraction 6/8,6/8=3/8,6/8=3/4,,,,"Ashlock, 2006","The learner simplified the numerator, but not the denominator"
+"when students struggle to represent key aspects and relationships in patterns, as seen in attempts like graphical representations missing key components",MaE35,"Patterns, relationships, and functions",1,On one side of a scale there are 3 pots of jam and a 100-ounce weight. The scale is balanced. What is the weight of 1 pot of jam?,[Pictorial representation of a scale but nothing more],"Schematic representation of the problem, including the scale, plus the data provided: 3 pots of jam, 100-, 200- and 500- ounnce weights.",,MaE35-Ex1LA,,"Scheuermann and van Garderen (2008)
+p. 3","Susan did generate a representation, which to some degree related to the corresponding problem. She noticed that several components were missing. For this problem, she had to include the weights and the pots of jam, but she only represented the scale."
+when students get confusion over operation symbols and their meanings in algebra,MaE53,Equations and inequalities,4,"Solve mn=
+Where m=10 and n=13",23,130,,,,"Arcavi et. al., 2016","The learner did not write the equation and rather, solved the problem by iteration and using inverse operations"
+"when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",MaE14,Number Operations,1,4/6÷2/2=?,4/6÷2/2=2/3,8/12,,,,"Ashlock (2006)
+p. 174",
+"when students make reversal order errors, swapping variables in equations, such as writing 2X=Y instead of X=2Y",MaE54,Equations and inequalities,2,"Write an equation using the variables C and S to represent the following statement: ""At Mindy's restaurant, for every four people who ordered cheesecake, there are five people who ordered strudel"". Let C represent the number of cheesecake and S represent the number of strudels ordered.",4C=5S,4S=5C,,,,"Clement, J. (1982)
+p. 3",
+"when students incorrectly assume two variables in an equation must represent distinct numerical values, rather than potentially representing the same expression",MaE47,"Variables, expressions, and operations",1,"h+m+n=h+p+n always, sometimes, or never true?",never true,Sometimes true,,,,"Stephens (2005)
+p. 1","Learners consider that each variable represents a different number, thence m and n should have a different value and so the equation is never true"
+when students fail to see ratios as relationships between two quantities,MaE28,Ratios and proportional reasoning,2,"Samer has 35 red glass balls in a bag and 25 green glass balls. 
+What is the ratio of the red glass balls to the green ones in
+the simplest form?",35 and 25,7/5,,,,"Khasawneh 2022
+p. 6",
+"when students wrongly position the decimal in multiplication by counting from the left, not the right",MaE20,Number Operations,1,6.7*3=?,"6.7
+x 3
+-------
+2.01",20.1,,,,"Ashlock (2006)
+p. 182","In her answer, Marsha places the decimal point by counting over from the left instead of from the right in the product. She frequently gets the correct answer, but much of the time her answer is not the correct product."
+"when students incorrectly perform operations from left to right, neglecting the proper order of operations",MaE34,Properties of number and operations,3,"Evaluate the following expression for y = 3:
+5y-24÷y+10",5(3)-24/3+10=15-24/3+10=-9/3+10=-3+10=7,17,,,,"Bush, 2011
+p. 219",
+"when students interchange minuend and subtrahend, reversing subtraction order, causing calculation errors, especially in equations or expressions",MaE33,Properties of number and operations,4,"Solve for n:
+19n+67-11n-48=131","19n+67-11n-48=131
+(11n-19n)+(67-48)=131
+8n-21=131
+8n=131+21
+n=72",n=14,,,,"L Linchevski, N Herscovics (1996)
+p. 52","The learner added 19n + 11n instead of subtracting, and for the subtraction 67-48, took the bigger numbers minus the smaller ones, rather than correctly subtracting: 8-7 = 1 in the units place and 6-4 = 2 in the tens place. Plus, the learner did not finish solving the equation for n"
+"when students fail to regroup in subtraction, mistakenly subtracting the larger number from the smaller",MaE21,Number Operations,3,"Solve: 
+  241-96=","241
+-96
+-------
+255",145,,,,"Ashlock, 2006",
+"when students extend quotients with remainders as decimals, if division isn't exact within the dividend's digits",MaE22,Number Operations,2,9.35÷.7=?,[Image],13.357,,MaE22-Ex2LA,,"Ashlock (2006)
+p. 183",
