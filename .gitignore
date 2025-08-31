@@ -1,1 +1,3 @@
 documentation/
+.env
+diagnostic_model.pkl
