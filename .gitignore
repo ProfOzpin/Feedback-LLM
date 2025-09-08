@@ -1,3 +1,4 @@
 documentation/
 .env
 diagnostic_model.pkl
+test_challenge_rare_skills.csv

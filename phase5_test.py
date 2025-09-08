@@ -1,28 +1,43 @@
-import pandas as pd
-import numpy as np
-from pgmpy.models import DiscreteBayesianNetwork
-from pgmpy.factors.discrete import TabularCPD
-from pgmpy.inference import VariableElimination
-from pgmpy.estimators import BayesianEstimator
-from sklearn.model_selection import train_test_split, KFold
-from sklearn.metrics import accuracy_score
-from sklearn.utils import resample
-import warnings
+# phase5_evaluation.py - Phase 5: Comprehensive Model Evaluation Framework
+# Processes test datasets and evaluates all diagnostic models with progress saving
+
+import os
+import json
+import pickle
+import itertools
+import requests
 import time
 import re
-from collections import defaultdict, Counter
+import pandas as pd
+import numpy as np
+import warnings
+from sklearn.model_selection import KFold
+from openai import OpenAI
+
 warnings.filterwarnings('ignore')
 
-# Optional semantic similarity
+# --- Import Phase 4 Components ---
 try:
-    from sentence_transformers import SentenceTransformer
-    from sklearn.metrics.pairwise import cosine_similarity
-    SEMANTIC_AVAILABLE = True
+    import google.generativeai as genai
+    GEMINI_AVAILABLE = True
 except ImportError:
-    SEMANTIC_AVAILABLE = False
-    print("ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒâ€š  Note: sentence-transformers not available. Using keyword matching only.")
+    print("Warning: google-generativeai not found. Run: pip install google-generativeai")
+    GEMINI_AVAILABLE = False
 
+try:
+    from dotenv import load_dotenv
+    DOTENV_AVAILABLE = True
+except ImportError:
+    print("Warning: python-dotenv not found. Run: pip install python-dotenv")
+    DOTENV_AVAILABLE = False
 
+try:
+    from pgmpy.inference import VariableElimination
+    from pgmpy.models import DiscreteBayesianNetwork
+    PGMPY_AVAILABLE = True
+except ImportError:
+    print("Warning: pgmpy not found. Run: pip install pgmpy")
+    PGMPY_AVAILABLE = False
 
 class EnhancedASSISTmentsMapper:
     """Enhanced data mapper with expanded specific error pattern detection"""
@@ -837,157 +852,467 @@ class ProductionReadyDiagnosticNetwork:
             if verbose: print("âŒ Cross-validation failed.")
             return 0.0, 0.0, []
 
+# --- Enhanced Hybrid Diagnostic System (from Phase 4 + V3 Implementation) ---
+class EnhancedHybridDiagnosticSystem:
+    def __init__(self, model_path='diagnostic_model.pkl'):
+        print("🚀 Initializing Enhanced Hybrid Diagnostic System for Phase 5...")
+        
+        self.bayesian_network = self.load_model_robustly(model_path)
+        if not self.bayesian_network:
+            raise ValueError("Failed to load a valid Bayesian Network model.")
+        
+        self.load_api_secrets()
+        self.setup_llm_clients()
+        print("✅ Enhanced Hybrid Diagnostic System initialized successfully!")
+
+    def load_model_robustly(self, model_path):
+        try:
+            with open(model_path, 'rb') as f:
+                model_object = pickle.load(f)
+            if model_object and getattr(model_object, 'trained', False):
+                print(f"✅ Successfully loaded trained Bayesian Network from '{model_path}'")
+                return model_object
+            else:
+                print(f"❌ FATAL ERROR: The file '{model_path}' is not a valid, trained model object.")
+                return None
+        except FileNotFoundError:
+            print(f"❌ FATAL ERROR: Model file not found at '{model_path}'.")
+            return None
+        except Exception as e:
+            print(f"❌ An unexpected error occurred while loading '{model_path}': {e}")
+            return None
+
+    def load_api_secrets(self):
+        if DOTENV_AVAILABLE: 
+            load_dotenv()
+        
+        self.gemini_keys = [k.strip() for k in os.getenv("Gemini_Secrets", "").split(',') if k.strip()]
+        self.deepseek_keys = [k.strip() for k in os.getenv("Deepseek_Secrets", "").split(',') if k.strip()]
+        
+        if not self.gemini_keys or not self.deepseek_keys:
+            raise ValueError("API keys for Gemini and/or Deepseek not found.")
+        
+        self.gemini_key_iterator = itertools.cycle(self.gemini_keys)
+        self.deepseek_key_iterator = itertools.cycle(self.deepseek_keys)
+        print(f"🔑 Loaded {len(self.gemini_keys)} Gemini and {len(self.deepseek_keys)} Deepseek keys.")
+
+    def setup_llm_clients(self):
+        if GEMINI_AVAILABLE: 
+            self.rotate_gemini_key()
+        self.rotate_deepseek_key()
+
+    def rotate_gemini_key(self):
+        try:
+            self.current_gemini_key = next(self.gemini_key_iterator)
+            genai.configure(api_key=self.current_gemini_key)
+            self.gemini_model = genai.GenerativeModel('gemini-2.5-pro')
+            print("🤖 Gemini 2.5 Pro configured with rotated key.")
+        except Exception as e:
+            print(f"Failed to configure Gemini: {e}")
+
+    def rotate_deepseek_key(self):
+        self.current_deepseek_key = next(self.deepseek_key_iterator)
+        print("🧠 Deepseek client configured with rotated key.")
+
+    def get_gemini_hypothesis(self, student_work):
+        if not GEMINI_AVAILABLE: 
+            raise RuntimeError("Gemini not available - missing google-generativeai package")
+        
+        prompt = self.create_error_analysis_prompt(student_work)
+
+        try:
+            response = self.gemini_model.generate_content(prompt)
+            
+            # Print the entire response object to see everything
+            print(f"FULL GEMINI RESPONSE: {response}") 
+            
+            # Specifically check for block reasons
+            if response.prompt_feedback.block_reason:
+                print(f"❌ GEMINI PROMPT BLOCKED: Reason = {response.prompt_feedback.block_reason.name}")
+                return {} # Return empty if blocked
+                
+            print(f"RAW RESPONSE TEXT: {response.text}")
+            return self.parse_llm_response(response.text)
+
+        except Exception as e:
+            print(f"❌ AN ERROR OCCURRED DURING GEMINI CALL: {e}")
+            return {}
 
 
-def comprehensive_validation_enhanced(data_file):
-    """Enhanced comprehensive validation - PRESERVED WITH IMPROVEMENTS"""
-    print("ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€¦Ã‚Â¡ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ENHANCED PRODUCTION-READY ASSISTMENTS BAYESIAN NETWORK")
+    def get_deepseek_hypothesis(self, student_work):
+        client = OpenAI(
+            api_key=self.current_deepseek_key, 
+            base_url="https://api.deepseek.com"
+        )
+        prompt = self.create_error_analysis_prompt(student_work)
+        
+        response = client.chat.completions.create(
+            model="deepseek-reasoner",
+            messages=[{"role": "user", "content": prompt}],
+            stream=False
+        )
+        
+        return self.parse_llm_response(response.choices[0].message.content)
+
+    def run_bn_only(self):
+        # ✅ CHANGE 1: Lowered threshold to increase BN sensitivity
+        diagnosis = self.bayesian_network.diagnose_misconceptions_with_confidence({}, threshold=0.01)
+        return {
+            'processed_evidence': {},
+            'diagnosis': diagnosis.to_dict('records') if not diagnosis.empty else []
+        }
+
+    def run_hybrid_v1_validator(self, llm_hypothesis):
+        valid_evidence, contradicted = {}, {}
+        
+        if llm_hypothesis:
+            for var, state in llm_hypothesis.items():
+                is_valid, valid_states = self.is_evidence_valid(var, state)
+                if is_valid:
+                    valid_evidence[var] = state
+                else:
+                    contradicted[var] = {
+                        'provided': state, 
+                        'allowed': valid_states, 
+                        'action': 'discarded'
+                    }
+        
+        # ✅ CHANGE 1: Lowered threshold for consistency
+        diagnosis = self.bayesian_network.diagnose_misconceptions_with_confidence(valid_evidence, threshold=0.01)
+        return self.format_result(llm_hypothesis, valid_evidence, contradicted, diagnosis)
+
+    def run_hybrid_v2_synthesizer(self, llm_hypothesis):
+        """FINAL Synthesizer: Maps LLM errors to concepts, then combines."""
+        
+        error_to_concept_map = {
+            'E_Sign_Error': ['U_Linear_Equations', 'U_Inequalities', 'U_Integer_Operations'],
+            'E_Calculation_Error': ['U_Quadratic_Equations', 'U_Area_Perimeter', 'U_Volume_Surface_Area', 'U_Fraction_Arithmetic', 'U_Decimal_Operations', 'U_Integer_Operations'],
+            'E_Conceptual_Confusion': ['U_Linear_Equations', 'U_Quadratic_Equations', 'U_Inequalities', 'U_Order_Of_Operations', 'U_Advanced_Math', 'U_Approximation'],
+            'E_Unit_Error': ['U_Area_Perimeter', 'U_Volume_Surface_Area', 'U_Unit_Conversion'],
+            'E_Fraction_Error': ['U_Fraction_Arithmetic', 'U_Fraction_Concepts', 'U_Percent_Operations'],
+            'E_Decimal_Error': ['U_Percent_Operations', 'U_Decimal_Operations'],
+            'E_Order_Error': ['U_Order_Of_Operations']
+        }
+        
+        bn_alone_result = self.run_bn_only()
+        bn_diagnoses = bn_alone_result.get('diagnosis', [])
+        bn_positive_nodes = {d['Misconception']: 1 for d in bn_diagnoses}
+        
+        llm_positive_errors = {k: v for k, v in llm_hypothesis.items() if v == 1 and k in error_to_concept_map}
+        
+        llm_implied_concepts = set()
+        for error in llm_positive_errors:
+            concepts = error_to_concept_map.get(error, [])
+            for concept in concepts:
+                llm_implied_concepts.add(concept)
+                
+        final_diagnosis_set = set()
+        for node in self.bayesian_network.conceptual_nodes:
+            if bn_positive_nodes.get(node, 0) == 1:
+                final_diagnosis_set.add(node)
+            if node in llm_implied_concepts:
+                final_diagnosis_set.add(node)
+                
+        final_diagnosis = [{'Misconception': node, 'Probability': 1.0, 'Source': 'BN+LLM Synthesis'} for node in final_diagnosis_set]
+        
+        return {
+            'llm_hypothesis': llm_hypothesis,
+            'bn_baseline': bn_positive_nodes,
+            'llm_implied_concepts': list(llm_implied_concepts),
+            'diagnosis': final_diagnosis
+        }
+
+    def run_hybrid_v3_combined(self, llm_hypothesis):
+        """
+        V3.3 - DYNAMIC FEEDBACK LOOP:
+        An intelligent, two-stage inference process that attempts a strict
+        diagnosis first, and if the result is weak, it re-runs the diagnosis
+        with a relaxed evidence set to avoid discarding potentially useful,
+        albeit unverified, signals from the LLM.
+        """
+        print("🧠 Running V3 Diagnostic: Dynamic Feedback Loop")
+        
+        # --- STAGE 1: The Strict Pass ---
+        # First, run the validator under strict rules. This prioritizes precision.
+        print("   - Stage 1: Running with STRICT validation...")
+        strict_v1_result = self.run_hybrid_v1_validator(llm_hypothesis)
+        strict_diagnosis = strict_v1_result.get('diagnosis', [])
+        
+        # Define the evidence to be used by the synthesizer. Start with the strict set.
+        evidence_for_synthesis = strict_v1_result.get('processed_evidence', {})
+        run_mode = "Strict"
+        
+        # --- STAGE 2: The Feedback Loop and Relaxed Pass ---
+        # Check if the strict diagnosis is weak (empty or low confidence).
+        # We define "weak" as having no diagnoses.
+        if not strict_diagnosis:
+            print("   - Stage 1 Result: WEAK. Diagnosis empty.")
+            print("   - Stage 2: Relaxing validation. Re-running with FULL LLM hypothesis...")
+            # The strict pass failed. Relax the rules and use the ORIGINAL,
+            # unfiltered LLM hypothesis as the evidence for the synthesizer.
+            # This prioritizes recall to avoid missing a potential diagnosis.
+            evidence_for_synthesis = llm_hypothesis
+            run_mode = "Relaxed"
+        else:
+            print("   - Stage 1 Result: STRONG. Using validated evidence.")
+
+        # --- FINAL SYNTHESIS ---
+        # Run the V2 synthesizer using the evidence selected by the logic above.
+        final_synthesized_result = self.run_hybrid_v2_synthesizer(evidence_for_synthesis)
+        
+        # --- COMBINE AND RETURN ---
+        # The final result includes the output from the initial strict run,
+        # the final synthesized diagnosis, and a note on which mode was used.
+        combined_result = {
+            'llm_hypothesis': llm_hypothesis,
+            'strict_v1_result': strict_v1_result, # Always show the initial strict attempt
+            'final_run_mode': run_mode,
+            'synthesized_diagnosis': final_synthesized_result
+        }
+        
+        # To match the output format of the other models, we'll lift the
+        # final diagnosis to the top level.
+        combined_result['diagnosis'] = final_synthesized_result.get('diagnosis', [])
+
+        return combined_result
+
+    def is_evidence_valid(self, var, state):
+        bn_model = self.bayesian_network.model
+        if var not in bn_model.nodes(): 
+            return False, []
+        try:
+            cpd = bn_model.get_cpds(var)
+            valid_states = list(range(cpd.variable_card))
+            return state in valid_states, valid_states
+        except Exception:
+            return False, []
+    
+    def format_result(self, hypothesis, evidence, contradicted, diagnosis):
+        return {
+            'llm_hypothesis': hypothesis,
+            'processed_evidence': evidence,
+            'contradicted_evidence': contradicted,
+            'diagnosis': diagnosis.to_dict('records') if not diagnosis.empty else []
+        }
+
+    def create_error_analysis_prompt(self, student_work):
+        error_types = list(self.bayesian_network.data_mapper.error_patterns.keys())
+        return f"""
+Analyze the student's work for specific error patterns.
+Problem: {student_work.get('question', 'N/A')}
+Student's Answer: {student_work.get('answer_text', 'N/A')}
+Skill: {student_work.get('skill_name', 'N/A')}
+Available Error Types: {', '.join(error_types)}
+Instructions: Return ONLY a JSON object with error types as keys and 1 as the value.
+Example: {{"E_Order_Error": 1, "E_Calculation_Error": 1}}
+Your Response:
+"""
+
+    def parse_llm_response(self, text):
+        try:
+            match = re.search(r'\{.*\}', text, re.DOTALL)
+            return json.loads(match.group(0)) if match else {}
+        except Exception:
+            return {}
+
+
+# --- Phase 5 Evaluator ---
+class Phase5Evaluator:
+    def __init__(self, model_path='diagnostic_model.pkl'):
+        self.diagnostic_system = EnhancedHybridDiagnosticSystem(model_path)
+
+    def process_dataset(self, test_file, results_file, ongoing_file):
+        """Process a single dataset with progress saving and error handling"""
+        print(f"\n📊 Processing dataset: {test_file}")
+        
+        if not os.path.exists(test_file):
+            print(f"❌ ERROR: Dataset {test_file} not found.")
+            return
+        
+        df = pd.read_csv(test_file)
+        print(f"📋 Dataset contains {len(df)} examples")
+        
+        results = []
+        errors = []
+        
+        for i, row in df.iterrows():
+            student_work = {
+                'question': row.get('question', ''),
+                'answer_text': row.get('answer_text', ''),
+                'skill_name': row.get('skill_name', '')
+            }
+            
+            try:
+                # Run all models for this student work
+                model_outputs = self.run_all_models(student_work)
+                true_skill = row.get('skill_name', '')
+                
+                # Process results for each model
+                for model_name, model_results in model_outputs.items():
+                    if model_name == 'BN_Alone':
+                        # BN alone has single output
+                        diagnosis_list = model_results.get('diagnosis', [])
+                        predicted_skills = [d['Misconception'] for d in diagnosis_list] if diagnosis_list else []
+                        accuracy = any(true_skill == pred for pred in predicted_skills)
+                        
+                        results.append({
+                            'original_index': i,  # NEW: Add original row index as first column
+                            'model': model_name,
+                            'llm': 'N/A',
+                            'true_skill': true_skill,
+                            'predicted_skills': predicted_skills,
+                            'accuracy': accuracy,
+                            'diagnosis_json': json.dumps(diagnosis_list)
+                        })
+                    else:
+                        # LLM-based models have results for each LLM
+                        for llm_name, result_set in model_results.items():
+                            if model_name == 'LLM_Alone':
+                                # LLM alone just returns hypothesis
+                                predicted_skills = list(result_set.keys()) if result_set else []
+                                accuracy = any(true_skill == pred for pred in predicted_skills)
+                                results.append({
+                                    'original_index': i,  # NEW: Add original row index as first column
+                                    'model': model_name,
+                                    'llm': llm_name,
+                                    'true_skill': true_skill,
+                                    'predicted_skills': predicted_skills,
+                                    'accuracy': accuracy,
+                                    'diagnosis_json': json.dumps(result_set)
+                                })
+                            else:
+                                # Hybrid models return diagnosis
+                                diagnosis_list = result_set.get('diagnosis', [])
+                                predicted_skills = [d['Misconception'] for d in diagnosis_list] if diagnosis_list else []
+                                accuracy = any(true_skill == pred for pred in predicted_skills)
+                                
+                                results.append({
+                                    'original_index': i,  # NEW: Add original row index as first column
+                                    'model': model_name,
+                                    'llm': llm_name,
+                                    'true_skill': true_skill,
+                                    'predicted_skills': predicted_skills,
+                                    'accuracy': accuracy,
+                                    'diagnosis_json': json.dumps(diagnosis_list)
+                                })
+
+                # Progress saving every 20 rows
+                if i % 20 == 0:
+                    pd.DataFrame(results).to_csv(results_file, index=False)
+                    pd.DataFrame(errors).to_csv(ongoing_file, index=False)
+                    print(f"💾 Progress saved at row {i}")
+
+            except Exception as e:
+                print(f"❌ Error processing row {i}: {e}")
+                
+                # Rotate keys on API failures
+                if "API key not valid" in str(e) or "401" in str(e) or "403" in str(e):
+                    try:
+                        self.diagnostic_system.rotate_gemini_key()
+                        self.diagnostic_system.rotate_deepseek_key()
+                    except:
+                        pass
+                
+                # Record the error with timestamp
+                errors.append({
+                    "original_index": i,  # NEW: Add original row index here too
+                    "row_index": i,       # Keep existing for compatibility
+                    "error": str(e),
+                    "error_type": type(e).__name__,
+                    "data": row.to_dict(),
+                    "timestamp": pd.Timestamp.now().isoformat()
+                })
+                
+                # Save progress immediately on error
+                pd.DataFrame(results).to_csv(results_file, index=False)
+                pd.DataFrame(errors).to_csv(ongoing_file, index=False)
+                print(f"💾 Error saved to {ongoing_file}")
+                
+                continue  # Skip to next row
+
+
+
+        # Final save
+        pd.DataFrame(results).to_csv(results_file, index=False)
+        pd.DataFrame(errors).to_csv(ongoing_file, index=False)
+        
+        print(f"✅ Finished processing {test_file}")
+        print(f"📈 Results: {len(results)} records saved to {results_file}")
+        print(f"⚠️  Errors: {len(errors)} errors saved to {ongoing_file}")
+
+    def run_all_models(self, student_work):
+        """Run all diagnostic models on student work"""
+        results = {}
+        
+        # Get LLM hypotheses
+        gemini_hypothesis = self.diagnostic_system.get_gemini_hypothesis(student_work)
+        deepseek_hypothesis = self.diagnostic_system.get_deepseek_hypothesis(student_work)
+        
+        # 1. LLM Alone
+        results['LLM_Alone'] = {
+            'Gemini-2.5-pro': gemini_hypothesis,
+            'Deepseek-reasoner': deepseek_hypothesis
+        }
+        print(("LLM Alone Results:", results['LLM_Alone']))  # Debugging line
+        
+        # 2. BN Alone
+        results['BN_Alone'] = self.diagnostic_system.run_bn_only()
+        print(("BN Alone Results:", results['BN_Alone']))  # Debugging line
+        
+        # 3. V1 (Validator)
+        results['Hybrid_V1_Validator'] = {
+            'Gemini-2.5-pro': self.diagnostic_system.run_hybrid_v1_validator(gemini_hypothesis),
+            'Deepseek-reason': self.diagnostic_system.run_hybrid_v1_validator(deepseek_hypothesis)
+        }
+        print(("Hybrid V1 Results:", results['Hybrid_V1_Validator']))  # Debugging line
+        
+        # 4. V2 (Synthesizer) 
+        results['Hybrid_V2_Synthesizer'] = {
+            'Gemini-2.5-pro': self.diagnostic_system.run_hybrid_v2_synthesizer(gemini_hypothesis),
+            'Deepseek-reason': self.diagnostic_system.run_hybrid_v2_synthesizer(deepseek_hypothesis)
+        }
+        print(("Hybrid V2 Results:", results['Hybrid_V2_Synthesizer']))  # Debugging line
+        
+        # 5. V3 (Combined - NEW!)
+        results['Hybrid_V3_Combined'] = {
+            'Gemini-2.5-pro': self.diagnostic_system.run_hybrid_v3_combined(gemini_hypothesis),
+            'Deepseek-reason': self.diagnostic_system.run_hybrid_v3_combined(deepseek_hypothesis)
+        }
+        print(("Hybrid V3 Results:", results['Hybrid_V3_Combined']))  # Debugging line
+        
+        return results
+
+# --- Main Execution ---
+def main():
+    print("=" * 80)
+    print("🎓 PHASE 5: COMPREHENSIVE MODEL EVALUATION FRAMEWORK")
     print("=" * 80)
     
     try:
-        # Load and validate data (PRESERVED)
-        df = pd.read_csv(data_file, encoding='latin-1', low_memory=False)
-        print(f"ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒâ€¦  Loaded {len(df):,} examples")
+        evaluator = Phase5Evaluator('diagnostic_model.pkl')
         
-        # Handle column name variations (PRESERVED)
-        if 'skill name' in df.columns:
-            df['skill_name'] = df['skill name']
-        elif 'skill_name' not in df.columns:
-            print("ÃƒÆ’Ã‚Â¢Ãƒâ€š Ãƒâ€¦Ã¢â‚¬â„¢ No skill name column found!")
-            return None
+        # Define datasets to process sequentially
+        datasets = [
+            ('test_general_benchmark.csv', 'results_general_benchmark.csv', 'ongoing_general_benchmark.csv'),
+            ('test_rare_skills.csv', 'results_rare_skills.csv', 'ongoing_rare_skills.csv'),
+            ('test_high_challenge.csv', 'results_high_challenge.csv', 'ongoing_high_challenge.csv')
+        ]
         
-        # Initialize enhanced network
-        network = ProductionReadyDiagnosticNetwork()
-        
-        # Perform cross-validation with enhancements
-        cv_accuracy, cv_std, fold_results = network.cross_validate(df, k_folds=5, verbose=True)
-        
-        # Main train-test split (PRESERVED)
-        clean_df = network.clean_data(df, verbose=True)
-        train_data, test_data = train_test_split(clean_df, test_size=0.2, random_state=42)
-        print(f"\n Final Split: {len(train_data):,} train, {len(test_data):,} test")
-        
-        # Train final model with enhancements
-        success = network.train_with_data(train_data, use_balancing=True, verbose=True)
-        
-        if not success:
-            print("Training failed!")
-            return None
-        
-        # Enhanced diagnostic testing (PRESERVED STRUCTURE)
-        print(f"\n ENHANCED DIAGNOSTIC TESTING")
-        print("-" * 50)
-        
-        # Get diverse test examples
-        incorrect_examples = test_data[test_data['correct'] == 0]
-        
-        # Sample examples with different evidence strengths
-        test_cases = []
-        if len(incorrect_examples) > 0:
-            for attempt_count in [2, 3, 5, 10]:
-                examples = incorrect_examples[incorrect_examples['attempt_count'] == attempt_count]
-                if len(examples) > 0:
-                    test_cases.append(examples.sample(1, random_state=42).iloc[0])
-                if len(test_cases) >= 5:
-                    break
+        # Process each dataset one by one
+        for test_file, results_file, ongoing_file in datasets:
+            evaluator.process_dataset(test_file, results_file, ongoing_file)
             
-            while len(test_cases) < 5 and len(incorrect_examples) > len(test_cases):
-                remaining = incorrect_examples.drop([tc.name for tc in test_cases if hasattr(tc, 'name')])
-                if len(remaining) > 0:
-                    test_cases.append(remaining.sample(1, random_state=42+len(test_cases)).iloc[0])
-                else:
-                    break
+            # Brief pause between datasets to avoid overwhelming APIs
+            print("⏳ Brief pause between datasets...")
+            time.sleep(5)
         
-        for i, example in enumerate(test_cases):
-            print(f"\nÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬ Ãƒâ€š  Enhanced Test Case {i+1}:")
-            print(f"   Skill: {example.get('skill_name', 'Unknown')}")
-            print(f"   Answer Text: {str(example.get('answer_text', 'N/A'))[:50]}...")
-            print(f"   Attempts: {example.get('attempt_count', 'N/A')}")
-            print(f"   Hints: {example.get('hint_count', 'N/A')}")
-            print(f"   Response Time: {example.get('ms_first_response', 'N/A')}ms")
-            
-            # Enhanced diagnosis with specific error detection
-            evidence = network.data_mapper.extract_error_evidence(example)
-            evidence_strength = network.data_mapper.calculate_evidence_strength(evidence)
-            
-            if evidence:
-                diagnosis = network.diagnose_misconceptions_with_confidence(evidence, threshold=0.2)
-                print(f"   Enhanced Evidence: {list(evidence.keys())} (Strength: {evidence_strength:.1%})")
-                
-                if not diagnosis.empty:
-                    print(f"   ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€¦Ã‚Â½Ãƒâ€šÃ‚Â¯ Enhanced Predictions:")
-                    for _, row in diagnosis.head(3).iterrows():
-                        print(f"     ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {row['Misconception']}: {row['Probability']:.1%} ({row['Confidence_Level']} confidence)")
-                else:
-                    print(f"   ÃƒÆ’Ã‚Â¢Ãƒâ€š Ãƒâ€¦Ã¢â‚¬â„¢ No predictions above threshold")
-            else:
-                print(f"   ÃƒÆ’Ã‚Â¢Ãƒâ€š Ãƒâ€¦Ã¢â‚¬â„¢ No error evidence extracted")
-        
-        # Enhanced final summary
-        print(f"\n ENHANCED PRODUCTION READINESS ASSESSMENT")
-        print("-" * 50)
-        
-        unmapped_skills = network.data_mapper.get_unmapped_skills()
-        total_skills = df['skill_name'].nunique()
-        skill_coverage = (total_skills - len(unmapped_skills)) / total_skills
-        
-        print(f"   Enhanced Model Performance:")
-        print(f"   Cross-Validation Accuracy: {cv_accuracy:.1%} ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â± {cv_std:.1%}")
-        print(f"   Skill Coverage: {skill_coverage:.1%} ({total_skills - len(unmapped_skills)}/{total_skills} skills)")
-        print(f"   Conceptual Nodes: {len(network.conceptual_nodes)}")
-        print(f"   Error Detection Types: {len(network.error_nodes)}")
-        print(f"   Specific Error Patterns: {len([e for e in network.error_nodes if e.startswith('E_') and e not in ['E_Multiple_Attempts', 'E_Hint_Usage', 'E_Slow_Response']])}")
-        
-        # Enhanced production readiness score
-        readiness_score = (cv_accuracy * 0.4 + skill_coverage * 0.3 + 
-                          min(1.0, (len(network.error_nodes) / 10)) * 0.3)
-        
-        print(f"\nÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€š ÃƒÂ¢Ã¢â€šÂ¬  Enhanced Production Readiness Score: {readiness_score:.1%}")
-        
-        if readiness_score > 0.8:
-            print("ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ EXCELLENT - Ready for production deployment with advanced diagnostics")
-        elif readiness_score > 0.6:
-            print("ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã‚Â¡ ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¸Ãƒâ€š   GOOD - Ready for pilot testing with enhanced monitoring")
-        else:
-            print("ÃƒÆ’Ã‚Â¢Ãƒâ€š Ãƒâ€¦Ã¢â‚¬â„¢ NEEDS IMPROVEMENT - Further development required")
-        
-        if unmapped_skills and len(unmapped_skills) <= 15:
-            print(f"\n Remaining unmapped skills:")
-            for skill in unmapped_skills:
-                print(f"   ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {skill}")
-        
-        return network
+        print("\n🎉 Phase 5 Comprehensive Evaluation Complete!")
+        print("📊 All results have been saved to their respective CSV files.")
         
     except Exception as e:
-        print(f"ÃƒÆ’Ã‚Â¢Ãƒâ€š Ãƒâ€¦Ã¢â‚¬â„¢ Error: {str(e)}")
         import traceback
+        print(f"\n❌ A critical error occurred: {e}")
         traceback.print_exc()
-        return None
 
-
-# MAIN EXECUTION
-# --- (Keep the main execution part) ---
 if __name__ == '__main__':
-    data_file = 'skill_builder_train.csv'
-    
-    network = comprehensive_validation_enhanced(data_file)
-    
-    # --- ROBUST MODEL SAVING ---
-    model_filename = 'diagnostic_model.pkl'
-    
-    # CRITICAL CHECK: Only save the model if it's a valid, trained network object.
-    if network and getattr(network, 'trained', False):
-        print(f"\n💾 Saving trained model to {model_filename}...")
-        try:
-            with open(model_filename, 'wb') as f:
-                import pickle
-                pickle.dump(network, f)
-            print(f"   ✅ Model successfully saved.")
-        except Exception as e:
-            print(f"   ❌ Error during model saving: {e}")
-            
-    # Provide clear feedback if the model is not saved.
-    elif network:
-         print(f"\n⚠️ Model was not saved because it was not successfully trained.")
-    else:
-        print(f"\n❌ Model was not saved because the training script failed to produce a network object.")
+    main()
